@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="es">
   <head>
-    <title>Smoothie Shop</title>
+    <title>Inicio - Kombuvida</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -9,16 +9,40 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CLato%7CKalam:300,400,700"
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CLato%7CKalam:300,400,700"
+
     />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/style-3.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .ie-panel {
+        display: none;
+        background: #212121;
+        padding: 10px 0;
+        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+        clear: both;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+      html.ie-10 .ie-panel,
+      html.lt-ie-10 .ie-panel {
+        display: block;
+      }
+    </style>
+    
   </head>
   <body>
+    <div class="ie-panel">
+      <a href="https://windows.microsoft.com/en-US/internet-explorer/"
+        ><img
+          src="images/ie8-panel/warning_bar_0000_us.jpg"
+          height="42"
+          width="820"
+          alt="Estás usando un navegador obsoleto. Para una experiencia de navegación más rápida y segura, actualízate gratis hoy."
+      /></a>
+    </div>
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-bell">
@@ -64,27 +88,16 @@
             data-xl-stick-up="true"
             data-xxl-stick-up="true"
           >
-            <div
-              class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1"
-              data-rd-navbar-toggle=".rd-navbar-collapse"
-            >
-              <span></span>
-            </div>
             <div class="rd-navbar-aside-outer">
               <div class="rd-navbar-aside">
                 <div class="rd-navbar-collapse">
                   <ul class="contacts-classic">
                     <li>
-                      <span class="contacts-classic-title">Call us:</span>
-                      <a href="tel:#">+1 (844) 123 456 78</a>
+                      <span class="contacts-classic-title">Llámamos:</span>
+                      <a href="tel:3323558616">33 2355 8616</a>
                     </li>
-                    <li><a href="mailto:#">info@demolink.org</a></li>
+                    <li><a href="mailto:evelynalexxa@icloud.com">evelynalexxa@icloud.com</a></li>
                   </ul>
-                  <a
-                    class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping202"
-                    href="cart-page.html"
-                    ><span>2</span></a
-                  >
                 </div>
                 <!-- RD Navbar Panel-->
                 <div class="rd-navbar-panel">
@@ -97,170 +110,19 @@
                   </button>
                   <!-- RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="../"
+                    <!--Brand--><a class="brand" href="index.html"
                       ><img
                         class="brand-logo-dark"
                         src="images/logo-default-3-314x70.png"
-                        alt=""
+                        alt="Kombuvida"
                         width="157"
                         height="35" /><img
                         class="brand-logo-light"
                         src="images/logo-inverse-3-314x70.png"
-                        alt=""
+                        alt="Kombuvida"
                         width="157"
                         height="35"
                     /></a>
-                  </div>
-                </div>
-                <div class="rd-navbar-aside-element">
-                  <!-- RD Navbar Search-->
-                  <div class="rd-navbar-search rd-navbar-search-2">
-                    <button
-                      class="rd-navbar-search-toggle rd-navbar-fixed-element-3"
-                      data-rd-navbar-toggle=".rd-navbar-search"
-                    >
-                      <span></span>
-                    </button>
-                    <form
-                      class="rd-search"
-                      action="search-results.html"
-                      data-search-live="rd-search-results-live"
-                      method="GET"
-                    >
-                      <div class="form-wrap">
-                        <input
-                          class="rd-navbar-search-form-input form-input"
-                          id="rd-navbar-search-form-input"
-                          type="text"
-                          name="s"
-                          autocomplete="off"
-                        />
-                        <label
-                          class="form-label"
-                          for="rd-navbar-search-form-input"
-                          >Search...</label
-                        >
-                        <div
-                          class="rd-search-results-live"
-                          id="rd-search-results-live"
-                        ></div>
-                        <button
-                          class="rd-search-form-submit fl-bigmug-line-search74"
-                          type="submit"
-                        ></button>
-                      </div>
-                    </form>
-                  </div>
-                  <!-- RD Navbar Basket-->
-                  <div class="rd-navbar-basket-wrap">
-                    <button
-                      class="rd-navbar-basket fl-bigmug-line-shopping202"
-                      data-rd-navbar-toggle=".cart-inline"
-                    >
-                      <span>2</span>
-                    </button>
-                    <div class="cart-inline">
-                      <div class="cart-inline-header">
-                        <h5 class="cart-inline-title">
-                          In cart:<span> 2</span> Products
-                        </h5>
-                        <h6 class="cart-inline-title">
-                          Total price:<span> $43</span>
-                        </h6>
-                      </div>
-                      <div class="cart-inline-body">
-                        <div class="cart-inline-item">
-                          <div class="unit unit-spacing-sm align-items-center">
-                            <div class="unit-left">
-                              <a
-                                class="cart-inline-figure"
-                                href="single-product.html"
-                                ><img
-                                  src="images/product-mini-6-100x90.png"
-                                  alt=""
-                                  width="100"
-                                  height="90"
-                              /></a>
-                            </div>
-                            <div class="unit-body">
-                              <h6 class="cart-inline-name">
-                                <a href="single-product.html">Oranges</a>
-                              </h6>
-                              <div>
-                                <div class="group-xs group-middle">
-                                  <div class="table-cart-stepper">
-                                    <input
-                                      class="form-input"
-                                      type="number"
-                                      data-zeros="true"
-                                      value="1"
-                                      min="1"
-                                      max="1000"
-                                    />
-                                  </div>
-                                  <h6 class="cart-inline-title">$20.00</h6>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="cart-inline-item">
-                          <div class="unit unit-spacing-sm align-items-center">
-                            <div class="unit-left">
-                              <a
-                                class="cart-inline-figure"
-                                href="single-product.html"
-                                ><img
-                                  src="images/product-mini-7-100x90.png"
-                                  alt=""
-                                  width="100"
-                                  height="90"
-                              /></a>
-                            </div>
-                            <div class="unit-body">
-                              <h6 class="cart-inline-name">
-                                <a href="single-product.html">Bananas</a>
-                              </h6>
-                              <div>
-                                <div class="group-xs group-middle">
-                                  <div class="table-cart-stepper">
-                                    <input
-                                      class="form-input"
-                                      type="number"
-                                      data-zeros="true"
-                                      value="1"
-                                      min="1"
-                                      max="1000"
-                                    />
-                                  </div>
-                                  <h6 class="cart-inline-title">$23.00</h6>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="cart-inline-footer">
-                        <div class="group-sm">
-                          <a
-                            class="button button-default-outline-2 button-zakaria"
-                            href="cart-page.html"
-                            >Go to cart</a
-                          ><a
-                            class="button button-primary button-zakaria"
-                            href="checkout.html"
-                            >Checkout</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="rd-navbar-fixed-element-2 select-inline">
-                    <select data-dropdown-class="select-inline-dropdown">
-                      <option value="en">en</option>
-                      <option value="fr">fr</option>
-                      <option value="es">es</option>
-                    </select>
                   </div>
                 </div>
               </div>
@@ -270,296 +132,40 @@
                 <div class="rd-navbar-nav-wrap">
                   <ul class="rd-navbar-nav">
                     <li class="rd-nav-item active">
-                      <a class="rd-nav-link" href="../">Home</a>
-                      <ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-dropdown-item active">
-                          <a class="rd-dropdown-link" href="smoothie-shop.html"
-                            >Smoothie Shop</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="index.html">Farm</a>
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="fruit-farm.html"
-                            >Fruit Farm</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="poultry-farm.html"
-                            >Poultry Farm</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="winery.html"
-                            >Winery</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="dairy-farm.html"
-                            >Dairy Farm</a
-                          >
-                        </li>
-                      </ul>
+                      <a class="rd-nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="rd-nav-item">
-                      <a class="rd-nav-link" href="#">Pages</a>
-                      <ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="about-us.html"
-                            >About Us</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="what-we-offer.html"
-                            >What We Offer</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="our-team.html"
-                            >Our Team</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="testimonials.html"
-                            >Testimonials</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="pricing-list.html"
-                            >Pricing List</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="rd-nav-item">
-                      <a class="rd-nav-link" href="grid-blog.html">Blog</a>
-                      <ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="grid-blog.html"
-                            >Grid Blog</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="blog-list.html"
-                            >Blog List</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="blog-post.html"
-                            >Blog Post</a
-                          >
-                        </li>
-                      </ul>
+                      <a class="rd-nav-link" href="blog-list.html">Blog</a>
                     </li>
                     <li class="rd-nav-item">
                       <a class="rd-nav-link" href="grid-gallery.html"
-                        >Gallery</a
+                        >Galería</a
                       >
-                      <ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="grid-gallery.html"
-                            >Grid Gallery</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a
-                            class="rd-dropdown-link"
-                            href="grid-fullwidth-gallery.html"
-                            >Grid Fullwidth Gallery</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a
-                            class="rd-dropdown-link"
-                            href="masonry-gallery.html"
-                            >Masonry Gallery</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a
-                            class="rd-dropdown-link"
-                            href="masonry-fullwidth-gallery.html"
-                            >Masonry Fullwidth Gallery</a
-                          >
-                        </li>
-                      </ul>
                     </li>
                     <li class="rd-nav-item">
-                      <a class="rd-nav-link" href="#">Elements</a>
-                      <ul class="rd-menu rd-navbar-megamenu">
-                        <li class="rd-megamenu-item rd-megamenu-item-1">
-                          <h6 class="rd-megamenu-title">
-                            <span class="rd-megamenu-icon mdi mdi-apps"></span
-                            ><span class="rd-megamenu-text">Elements</span>
-                          </h6>
-                          <ul class="rd-megamenu-list">
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="typography.html"
-                                >Typography</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="icon-lists.html"
-                                >Icon lists</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="progress-bars.html"
-                                >Progress bars</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="calls-to-action.html"
-                                >Calls to action</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="tabs-and-accordions.html"
-                                >Tabs &amp; accordions</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="buttons.html"
-                                >Buttons</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="tables.html"
-                                >Tables</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a class="rd-megamenu-list-link" href="forms.html"
-                                >Forms</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="counters.html"
-                                >Counters</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="grid-system.html"
-                                >Grid system</a
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                        <li class="rd-megamenu-item rd-megamenu-item-2">
-                          <h6 class="rd-megamenu-title">
-                            <span class="rd-megamenu-icon mdi mdi-layers"></span
-                            ><span class="rd-megamenu-text"
-                              >Additional pages</span
-                            >
-                          </h6>
-                          <ul class="rd-megamenu-list">
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="404-page.html"
-                                >404 Page</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="coming-soon.html"
-                                >Coming Soon</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="contact-us.html"
-                                >Contact Us</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="terms-of-use.html"
-                                >Terms of Use</a
-                              >
-                            </li>
-                            <li class="rd-megamenu-list-item">
-                              <a
-                                class="rd-megamenu-list-link"
-                                href="search-results.html"
-                                >Search Results</a
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                        <li class="rd-megamenu-item rd-megamenu-banner">
-                          <div class="rd-megamenu-title">
-                            <span class="rd-megamenu-icon mdi mdi-carrot"></span
-                            ><span class="rd-megamenu-text"
-                              >Welcome to Our Store</span
-                            >
-                          </div>
-                          <a class="banner-classic" href="grid-shop.html"
-                            ><img
-                              src="images/banner-1-300x202.jpg"
-                              alt=""
-                              width="300"
-                              height="202"
-                          /></a>
-                        </li>
-                      </ul>
+                      <a class="rd-nav-link" href="single-product.html"
+                        >Producto</a
+                      >
                     </li>
                     <li class="rd-nav-item">
-                      <a class="rd-nav-link" href="grid-shop.html">Shop</a>
-                      <ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="ecwid-shop.html"
-                            >Ecwid Shop</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="grid-shop.html"
-                            >Grid Shop</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="shop-list.html"
-                            >Shop List</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="single-product.html"
-                            >Single Product</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="cart-page.html"
-                            >Cart Page</a
-                          >
-                        </li>
-                        <li class="rd-dropdown-item">
-                          <a class="rd-dropdown-link" href="checkout.html"
-                            >Checkout</a
-                          >
-                        </li>
-                      </ul>
+                      <a class="rd-nav-link" href="pricing-list.html"
+                        >Membresía</a
+                      >
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="coming-soon.html"
+                        >Próximamente</a
+                      >
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="privacy-policy.html"
+                        >Política de Privacidad</a
+                      >
+                    </li>
+                    <li class="rd-nav-item">
+                      <a class="rd-nav-link" href="contact-us.html"
+                        >Contacto</a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -576,9 +182,9 @@
         <div class="swiper-wrapper context-dark">
           <div
             class="swiper-slide swiper-slide-1"
-            data-slide-bg="images/smoothie-shop/slide-1.jpg"
+            data-slide-bg="images/slide-1.jpg"
           >
-            <div class="swiper-slide-caption section-md text-sm-start">
+            <div class="swiper-slide-caption section-md text-sm-left">
               <div class="container">
                 <div class="row">
                   <div class="col-sm-8 col-md-7">
@@ -587,15 +193,14 @@
                       data-caption-animate="fadeInLeft"
                       data-caption-delay="100"
                     >
-                      Tasty Way <br />to Healthier Life
+                      Kombuvida <br />Salud en cada sorbo
                     </h2>
                     <h5
                       class="swiper-title-2 text-width-medium"
                       data-caption-animate="fadeInLeft"
                       data-caption-delay="250"
                     >
-                      Our organic drinks contain all necessary elements and
-                      vitamins for your health.
+                      Nuestra kombucha artesanal contiene todos los elementos necesarios para tu bienestar digestivo y energía natural.
                     </h5>
                     <div
                       class="button-wrap"
@@ -604,8 +209,8 @@
                     >
                       <a
                         class="button button-lg button-shadow-4 button-secondary-2 button-zakaria"
-                        href="grid-shop.html"
-                        >Shop now</a
+                        href="single-product.html"
+                        >Conoce más</a
                       >
                     </div>
                   </div>
@@ -615,7 +220,7 @@
           </div>
           <div
             class="swiper-slide swiper-slide-2"
-            data-slide-bg="images/smoothie-shop/slide-2.jpg"
+            data-slide-bg="images/slide-2.jpg"
           >
             <div class="swiper-slide-caption section-md text-center">
               <div class="container">
@@ -624,16 +229,14 @@
                   data-caption-animate="fadeInLeft"
                   data-caption-delay="100"
                 >
-                  New Drink, New Day
+                  Membresía Exclusiva
                 </h2>
                 <h5
                   class="swiper-title-2"
                   data-caption-animate="fadeInRight"
                   data-caption-delay="250"
                 >
-                  With our wide variety of smoothies and healthy drinks, we are
-                  sure <br class="d-none d-md-block" />to help you make the
-                  right choice to start your day.
+                  Disfruta de nuestra kombucha fresca cada 15 días con un 10% de descuento en nuestro plan de 3 meses.
                 </h5>
                 <div
                   class="button-wrap"
@@ -642,8 +245,8 @@
                 >
                   <a
                     class="button button-lg button-shadow-4 button-secondary-2 button-zakaria"
-                    href="grid-shop.html"
-                    >Shop now</a
+                    href="pricing-list.html"
+                    >Suscríbete</a
                   >
                 </div>
               </div>
@@ -664,7 +267,7 @@
               <div class="row row-30 row-md-40 row-lg-50 bordered-2">
                 <div class="col-sm-6 col-md-12">
                   <article
-                    class="box-icon-classic box-icon-nancy-right text-center text-lg-end wow fadeInLeft"
+                    class="box-icon-classic box-icon-nancy-right text-center text-lg-right wow fadeInLeft"
                   >
                     <div class="unit flex-column flex-lg-row-reverse">
                       <div class="unit-left">
@@ -733,11 +336,10 @@
                       </div>
                       <div class="unit-body">
                         <h4 class="box-icon-classic-title">
-                          <a href="#">100% organic</a>
+                          <a href="#">Probióticos Naturales</a>
                         </h4>
                         <p class="box-icon-classic-text">
-                          We make our products from 100% organic and fresh
-                          ingredients full of vitamins and nutrients.
+                          Nuestra kombucha artesanal está llena de cultivos vivos que mejoran tu flora intestinal y fortalecen tu sistema digestivo.
                         </p>
                       </div>
                     </div>
@@ -745,7 +347,7 @@
                 </div>
                 <div class="col-sm-6 col-md-12">
                   <article
-                    class="box-icon-classic box-icon-nancy-right text-center text-lg-end wow fadeInLeft"
+                    class="box-icon-classic box-icon-nancy-right text-center text-lg-right wow fadeInLeft"
                     data-wow-delay=".1s"
                   >
                     <div class="unit flex-column flex-lg-row-reverse">
@@ -854,11 +456,10 @@
                       </div>
                       <div class="unit-body">
                         <h4 class="box-icon-classic-title">
-                          <a href="#">Good for health</a>
+                          <a href="#">Desintoxicación Natural</a>
                         </h4>
                         <p class="box-icon-classic-text">
-                          Our drinks are exceptionally good for boosting your
-                          health and increasing your energy level.
+                          Ayuda a limpiar tu organismo gracias a sus propiedades antioxidantes y enzimas digestivas que apoyan la función hepática.
                         </p>
                       </div>
                     </div>
@@ -868,7 +469,7 @@
             </div>
             <div class="col-md-2 col-xl-4 d-none d-md-block wow fadeScale">
               <img
-                src="images/smoothie-shop/index-1-399x407.png"
+                src="images/index-1-399x407.png"
                 alt=""
                 width="399"
                 height="407"
@@ -878,7 +479,7 @@
               <div class="row row-30 row-md-40 row-lg-50 bordered-2">
                 <div class="col-sm-6 col-md-12">
                   <article
-                    class="box-icon-classic box-icon-nancy-left text-center text-lg-start wow fadeInRigth"
+                    class="box-icon-classic box-icon-nancy-left text-center text-lg-left wow fadeInRigth"
                   >
                     <div class="unit flex-column flex-lg-row">
                       <div class="unit-left">
@@ -971,11 +572,10 @@
                       </div>
                       <div class="unit-body">
                         <h4 class="box-icon-classic-title">
-                          <a href="#">No additives</a>
+                          <a href="#">100% Natural</a>
                         </h4>
                         <p class="box-icon-classic-text">
-                          Our smoothies, healthy drinks, and energy bowls
-                          contain no artificial additives, only vital elements.
+                          Elaborada con té orgánico, cultivos SCOBY y azúcar de caña sin aditivos artificiales ni conservadores.
                         </p>
                       </div>
                     </div>
@@ -983,7 +583,7 @@
                 </div>
                 <div class="col-sm-6 col-md-12">
                   <article
-                    class="box-icon-classic box-icon-nancy-left text-center text-lg-start wow fadeInRight"
+                    class="box-icon-classic box-icon-nancy-left text-center text-lg-left wow fadeInRight"
                     data-wow-delay=".1s"
                   >
                     <div class="unit flex-column flex-lg-row">
@@ -1092,11 +692,10 @@
                       </div>
                       <div class="unit-body">
                         <h4 class="box-icon-classic-title">
-                          <a href="#">A lot of energy</a>
+                          <a href="#">Energía Vital</a>
                         </h4>
                         <p class="box-icon-classic-text">
-                          We designed our products as the universal organic
-                          energetics that can quench your thirst.
+                          Contiene vitaminas B, enzimas y nutrientes que aumentan tu energía naturalmente sin cafeína ni estimulantes artificiales.
                         </p>
                       </div>
                     </div>
@@ -1118,7 +717,7 @@
                 <div class="product-body">
                   <div class="product-figure">
                     <img
-                      src="images/smoothie-shop/product-1-95x175.png"
+                      src="images/product-1-95x175.png"
                       alt=""
                       width="95"
                       height="175"
@@ -1143,7 +742,7 @@
                   <div class="product-button">
                     <a
                       class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                      href="cart-page.html"
+                      href="#"
                     ></a>
                   </div>
                 </div>
@@ -1155,7 +754,7 @@
                 <div class="product-body">
                   <div class="product-figure">
                     <img
-                      src="images/smoothie-shop/product-2-95x175.png"
+                      src="images/product-2-95x175.png"
                       alt=""
                       width="95"
                       height="175"
@@ -1179,7 +778,7 @@
                   <div class="product-button">
                     <a
                       class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                      href="cart-page.html"
+                      href="#"
                     ></a>
                   </div>
                 </div>
@@ -1191,7 +790,7 @@
                 <div class="product-body">
                   <div class="product-figure">
                     <img
-                      src="images/smoothie-shop/product-3-95x175.png"
+                      src="images/product-3-95x175.png"
                       alt=""
                       width="95"
                       height="175"
@@ -1201,7 +800,7 @@
                     <a href="single-product.html">Apple</a>
                   </h5>
                   <div class="product-price-wrap">
-                    <div class="product-price">$17.00</div>
+                    <div class="product-price">$16.99</div>
                   </div>
                 </div>
                 <div class="product-button-wrap">
@@ -1214,43 +813,7 @@
                   <div class="product-button">
                     <a
                       class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                      href="cart-page.html"
-                    ></a>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-              <!-- Product-->
-              <article class="product wow fadeInRight" data-wow-delay=".3s">
-                <div class="product-body">
-                  <div class="product-figure">
-                    <img
-                      src="images/smoothie-shop/product-7-95x175.png"
-                      alt=""
-                      width="95"
-                      height="175"
-                    />
-                  </div>
-                  <h5 class="product-title">
-                    <a href="single-product.html">Carrots</a>
-                  </h5>
-                  <div class="product-price-wrap">
-                    <div class="product-price">$13.00</div>
-                  </div>
-                </div>
-                <span class="product-badge product-badge-new">New</span>
-                <div class="product-button-wrap">
-                  <div class="product-button">
-                    <a
-                      class="button button-secondary button-zakaria fl-bigmug-line-search74"
-                      href="single-product.html"
-                    ></a>
-                  </div>
-                  <div class="product-button">
-                    <a
-                      class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                      href="cart-page.html"
+                      href="#"
                     ></a>
                   </div>
                 </div>
@@ -1262,7 +825,7 @@
                 <div class="product-body">
                   <div class="product-figure">
                     <img
-                      src="images/smoothie-shop/product-4-95x175.png"
+                      src="images/product-4-95x175.png"
                       alt=""
                       width="95"
                       height="175"
@@ -1272,7 +835,7 @@
                     <a href="single-product.html">Guava</a>
                   </h5>
                   <div class="product-price-wrap">
-                    <div class="product-price">$13.00</div>
+                    <div class="product-price">$12.00</div>
                   </div>
                 </div>
                 <span class="product-badge product-badge-new">New</span>
@@ -1286,7 +849,7 @@
                   <div class="product-button">
                     <a
                       class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                      href="cart-page.html"
+                      href="#"
                     ></a>
                   </div>
                 </div>
@@ -1298,7 +861,7 @@
                 <div class="product-body">
                   <div class="product-figure">
                     <img
-                      src="images/smoothie-shop/product-5-95x175.png"
+                      src="images/product-5-95x175.png"
                       alt=""
                       width="95"
                       height="175"
@@ -1308,7 +871,43 @@
                     <a href="single-product.html">Grapes</a>
                   </h5>
                   <div class="product-price-wrap">
-                    <div class="product-price">$17.00</div>
+                    <div class="product-price">$11.00</div>
+                  </div>
+                </div>
+                <span class="product-badge product-badge-new">New</span>
+                <div class="product-button-wrap">
+                  <div class="product-button">
+                    <a
+                      class="button button-secondary button-zakaria fl-bigmug-line-search74"
+                      href="single-product.html"
+                    ></a>
+                  </div>
+                  <div class="product-button">
+                    <a
+                      class="button button-primary button-zakaria fl-bigmug-line-shopping202"
+                      href="#"
+                    ></a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <!-- Product-->
+              <article class="product wow fadeInLeft" data-wow-delay=".1s">
+                <div class="product-body">
+                  <div class="product-figure">
+                    <img
+                      src="images/product-6-95x175.png"
+                      alt=""
+                      width="95"
+                      height="175"
+                    />
+                  </div>
+                  <h5 class="product-title">
+                    <a href="single-product.html">Bananas</a>
+                  </h5>
+                  <div class="product-price-wrap">
+                    <div class="product-price">$15.99</div>
                   </div>
                 </div>
                 <div class="product-button-wrap">
@@ -1321,7 +920,7 @@
                   <div class="product-button">
                     <a
                       class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                      href="cart-page.html"
+                      href="#"
                     ></a>
                   </div>
                 </div>
@@ -1329,22 +928,22 @@
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3">
               <!-- Product-->
-              <article class="product wow fadeInLeft" data-wow-delay=".1s">
+              <article class="product wow fadeInRight" data-wow-delay=".3s">
                 <div class="product-body">
                   <div class="product-figure">
                     <img
-                      src="images/smoothie-shop/product-6-95x175.png"
+                      src="images/product-7-95x175.png"
                       alt=""
                       width="95"
                       height="175"
                     />
                   </div>
                   <h5 class="product-title">
-                    <a href="single-product.html">Bananas</a>
+                    <a href="single-product.html">Carrots</a>
                   </h5>
                   <div class="product-price-wrap">
-                    <div class="product-price product-price-old">$30.00</div>
-                    <div class="product-price">$23.00</div>
+                    <div class="product-price product-price-old">$33.00</div>
+                    <div class="product-price">$24.00</div>
                   </div>
                 </div>
                 <span class="product-badge product-badge-sale">Sale</span>
@@ -1358,7 +957,7 @@
                   <div class="product-button">
                     <a
                       class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                      href="cart-page.html"
+                      href="#"
                     ></a>
                   </div>
                 </div>
@@ -1370,7 +969,7 @@
                 <div class="product-body">
                   <div class="product-figure">
                     <img
-                      src="images/smoothie-shop/product-8-95x175.png"
+                      src="images/product-8-95x175.png"
                       alt=""
                       width="95"
                       height="175"
@@ -1380,7 +979,7 @@
                     <a href="single-product.html">Orange</a>
                   </h5>
                   <div class="product-price-wrap">
-                    <div class="product-price">$17.00</div>
+                    <div class="product-price">$14.99</div>
                   </div>
                 </div>
                 <div class="product-button-wrap">
@@ -1393,7 +992,7 @@
                   <div class="product-button">
                     <a
                       class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                      href="cart-page.html"
+                      href="#"
                     ></a>
                   </div>
                 </div>
@@ -1402,1281 +1001,742 @@
           </div>
         </div>
       </section>
-      <!-- Counter Modern-->
-      <section
-        class="parallax-container"
-        data-parallax-img="images/parallax-2.jpg"
-      >
-        <div class="parallax-content section-xxl context-dark">
-          <div class="container">
-            <div class="row row-30 justify-content-center">
-              <div class="col-6 col-sm-3">
-                <div class="counter-modern">
-                  <h2 class="counter-modern-number">
-                    <span class="counter">245</span>
-                  </h2>
-                  <div class="counter-modern-decor"></div>
-                  <h5 class="counter-modern-title">
-                    New drinks and<br class="d-none d-sm-block" />
-                    smoothies
-                  </h5>
-                </div>
-              </div>
-              <div class="col-6 col-sm-3">
-                <div class="counter-modern">
-                  <h2 class="counter-modern-number">
-                    <span class="counter">382</span>
-                  </h2>
-                  <div class="counter-modern-decor"></div>
-                  <h5 class="counter-modern-title">
-                    Special<br class="d-none d-sm-block" />
-                    offers
-                  </h5>
-                </div>
-              </div>
-              <div class="col-6 col-sm-3">
-                <div class="counter-modern">
-                  <h2 class="counter-modern-number">
-                    <span class="counter">1267</span>
-                  </h2>
-                  <div class="counter-modern-decor"></div>
-                  <h5 class="counter-modern-title">
-                    Satisfied<br class="d-none d-sm-block" />
-                    clients
-                  </h5>
-                </div>
-              </div>
-              <div class="col-6 col-sm-3">
-                <div class="counter-modern">
-                  <h2 class="counter-modern-number">
-                    <span class="counter">474</span>
-                  </h2>
-                  <div class="counter-modern-decor"></div>
-                  <h5 class="counter-modern-title">
-                    Partners throughout<br class="d-none d-sm-block" />
-                    the USA
-                  </h5>
-                </div>
-              </div>
-            </div>
+      <!-- Estadísticas Kombuvida -->
+<section class="parallax-container" data-parallax-img="images/parallax-2.jpg">
+  <div class="parallax-content section-xxl context-dark">
+    <div class="container">
+      <div class="row row-30 justify-content-center">
+        <div class="col-6 col-sm-3">
+          <div class="counter-modern">
+            <h2 class="counter-modern-number">
+              <span class="counter">100</span>L
+            </h2>
+            <div class="counter-modern-decor"></div>
+            <h5 class="counter-modern-title">
+              Producción semanal<br class="d-none d-sm-block" />
+              de kombucha
+            </h5>
           </div>
         </div>
-      </section>
-      <!-- Section Product and Clients-->
-      <section class="section section-xxl bg-default text-md-start">
-        <div class="container">
-          <div
-            class="row row-30 row-md-60 row-lg-70 justify-content-center align-items-md-center"
-          >
-            <div class="col-sm-8 col-md-5 col-xl-6">
-              <div class="inset-xl-right-20">
-                <div class="product-wrap-1 bg-image-1 block-1">
-                  <!-- Owl Carousel-->
-                  <div
-                    class="owl-carousel owl-style-5"
-                    data-items="1"
-                    data-margin="30"
-                    data-dots="true"
-                    data-autoplay="true"
-                  >
-                    <article class="product-creative">
-                      <div class="product-figure">
-                        <img
-                          src="images/smoothie-shop/product-big-1-470x324.png"
-                          alt=""
-                          width="470"
-                          height="324"
-                        />
-                      </div>
-                      <h4 class="product-creative-title">
-                        <a href="single-product.html">Aurore Grape</a>
-                      </h4>
-                      <div class="product-creative-price-wrap">
-                        <div
-                          class="product-creative-price product-creative-price-old"
-                        >
-                          $20.00
-                        </div>
-                        <div class="product-creative-price">$15.00</div>
-                      </div>
-                    </article>
-                    <article class="product-creative">
-                      <div class="product-figure">
-                        <img
-                          src="images/smoothie-shop/product-big-2-470x324.png"
-                          alt=""
-                          width="470"
-                          height="324"
-                        />
-                      </div>
-                      <h4 class="product-creative-title">
-                        <a href="single-product.html">Banana Berry</a>
-                      </h4>
-                      <div class="product-creative-price-wrap">
-                        <div
-                          class="product-creative-price product-creative-price-old"
-                        >
-                          $18.00
-                        </div>
-                        <div class="product-creative-price">$13.00</div>
-                      </div>
-                    </article>
-                    <article class="product-creative">
-                      <div class="product-figure">
-                        <img
-                          src="images/smoothie-shop/product-big-3-470x324.png"
-                          alt=""
-                          width="470"
-                          height="324"
-                        />
-                      </div>
-                      <h4 class="product-creative-title">
-                        <a href="single-product.html">Chili Mango</a>
-                      </h4>
-                      <div class="product-creative-price-wrap">
-                        <div
-                          class="product-creative-price product-creative-price-old"
-                        >
-                          $30.00
-                        </div>
-                        <div class="product-creative-price">$23.00</div>
-                      </div>
-                    </article>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-7 col-xl-6">
-              <h2 class="text-transform-capitalize wow fadeInRight">
-                Why Organic?
-              </h2>
-              <!-- Bootstrap collapse-->
-              <div
-                class="card-group-custom card-group-corporate"
-                id="accordion1"
-                role="tablist"
-                aria-multiselectable="false"
-              >
-                <!-- Bootstrap card-->
-                <article
-                  class="card card-custom card-corporate wow fadeInRight"
-                  data-wow-delay=".1s"
-                >
-                  <div class="card-header" role="tab">
-                    <div class="card-title">
-                      <a
-                        id="accordion1-card-head-aafskijv"
-                        data-bs-toggle="collapse"
-                        data-bs-parent="#accordion1"
-                        href="#accordion1-card-body-esuuimue"
-                        aria-controls="accordion1-card-body-esuuimue"
-                        aria-expanded="true"
-                        role="button"
-                        >Organic drinks contain more antioxidants.
-                        <div class="card-arrow">
-                          <div class="icon"></div></div
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="collapse show"
-                    id="accordion1-card-body-esuuimue"
-                    aria-labelledby="accordion1-card-head-aafskijv"
-                    data-bs-parent="#accordion1"
-                    role="tabpanel"
-                  >
-                    <div class="card-body">
-                      <p>
-                        There are many substances that can act as antioxidants;
-                        chief among them are vitamins A and C, as well as
-                        beta-carotene and manganese. A lack of antioxidant-rich
-                        foods can lead to a greater risk of atherosclerosis.
-                      </p>
-                    </div>
-                  </div>
-                </article>
-                <!-- Bootstrap card-->
-                <article
-                  class="card card-custom card-corporate wow fadeInRight"
-                  data-wow-delay=".2s"
-                >
-                  <div class="card-header" role="tab">
-                    <div class="card-title">
-                      <a
-                        class="collapsed"
-                        id="accordion1-card-head-ggahiken"
-                        data-bs-toggle="collapse"
-                        data-bs-parent="#accordion1"
-                        href="#accordion1-card-body-dlnhxjsq"
-                        aria-controls="accordion1-card-body-dlnhxjsq"
-                        aria-expanded="false"
-                        role="button"
-                        >Organic drinks are better for the environment.
-                        <div class="card-arrow">
-                          <div class="icon"></div></div
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="collapse"
-                    id="accordion1-card-body-dlnhxjsq"
-                    aria-labelledby="accordion1-card-head-ggahiken"
-                    data-bs-parent="#accordion1"
-                    role="tabpanel"
-                  >
-                    <div class="card-body">
-                      <p>
-                        While you’re helping yourself be as healthy as can be,
-                        how about helping the environment and your fellow
-                        humans? Organic farming practices help conserve water
-                        and improve soil quality. Given the droughts we see
-                        occurring every year and the dire reports from
-                        environmental experts, these are no small reasons to go
-                        organic.
-                      </p>
-                    </div>
-                  </div>
-                </article>
-                <!-- Bootstrap card-->
-                <article
-                  class="card card-custom card-corporate wow fadeInRight"
-                  data-wow-delay=".3s"
-                >
-                  <div class="card-header" role="tab">
-                    <div class="card-title">
-                      <a
-                        class="collapsed"
-                        id="accordion1-card-head-opmipvwr"
-                        data-bs-toggle="collapse"
-                        data-bs-parent="#accordion1"
-                        href="#accordion1-card-body-dgjqjdxo"
-                        aria-controls="accordion1-card-body-dgjqjdxo"
-                        aria-expanded="false"
-                        role="button"
-                        >They’re higher in nutrients.
-                        <div class="card-arrow">
-                          <div class="icon"></div></div
-                      ></a>
-                    </div>
-                  </div>
-                  <div
-                    class="collapse"
-                    id="accordion1-card-body-dgjqjdxo"
-                    aria-labelledby="accordion1-card-head-opmipvwr"
-                    data-bs-parent="#accordion1"
-                    role="tabpanel"
-                  >
-                    <div class="card-body">
-                      <p>
-                        Along with fewer pesticides, this is probably the No. 1
-                        reason folks decide to eat organic. Studies have shown
-                        that organic drinks are often higher in vitamin C, iron,
-                        magnesium, and phosphorous than their non-organic
-                        counterparts.
-                      </p>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-            <div class="col-xl-12">
-              <div class="row row-30">
-                <div
-                  class="col-sm-6 col-lg-4 wow fadeInLeft"
-                  data-wow-delay=".2s"
-                >
-                  <article class="box-icon-creative">
-                    <div
-                      class="unit flex-column flex-md-row flex-lg-column flex-xl-row align-items-md-center align-items-lg-start align-items-xl-center"
-                    >
-                      <div class="unit-left">
-                        <div
-                          class="box-icon-creative-icon fl-bigmug-line-big104"
-                        ></div>
-                      </div>
-                      <div class="unit-body">
-                        <h5 class="box-icon-creative-title">
-                          <a href="#">Free Shipping</a>
-                        </h5>
-                        <p class="box-icon-creative-text">
-                          Enjoy our fast &amp; free delivery
-                        </p>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div
-                  class="col-sm-6 col-lg-4 wow fadeInLeft"
-                  data-wow-delay=".1s"
-                >
-                  <article class="box-icon-creative">
-                    <div
-                      class="unit flex-column flex-md-row flex-lg-column flex-xl-row align-items-md-center align-items-lg-start align-items-xl-center"
-                    >
-                      <div class="unit-left">
-                        <div
-                          class="box-icon-creative-icon fl-bigmug-line-chat55"
-                        ></div>
-                      </div>
-                      <div class="unit-body">
-                        <h5 class="box-icon-creative-title">
-                          <a href="#">Customer care</a>
-                        </h5>
-                        <p class="box-icon-creative-text">
-                          Always ready to help you
-                        </p>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-sm-6 col-lg-4 wow fadeInLeft">
-                  <article class="box-icon-creative">
-                    <div
-                      class="unit flex-column flex-md-row flex-lg-column flex-xl-row align-items-md-center align-items-lg-start align-items-xl-center"
-                    >
-                      <div class="unit-left">
-                        <div
-                          class="box-icon-creative-icon fl-bigmug-line-like51"
-                        ></div>
-                      </div>
-                      <div class="unit-body">
-                        <h5 class="box-icon-creative-title">
-                          <a href="#">Healthy &amp; energetic</a>
-                        </h5>
-                        <p class="box-icon-creative-text">
-                          Our drinks are very nutritious.
-                        </p>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>
+        <div class="col-6 col-sm-3">
+          <div class="counter-modern">
+            <h2 class="counter-modern-number">
+              <span class="counter">25</span>
+            </h2>
+            <div class="counter-modern-decor"></div>
+            <h5 class="counter-modern-title">
+              Familias<br class="d-none d-sm-block" />
+              beneficiadas
+            </h5>
           </div>
         </div>
-      </section>
-      <!-- What People Say-->
-      <section class="section section-xxl bg-image-1">
-        <div class="container">
-          <h2 class="text-transform-capitalize wow fadeScale">
-            What People Say
-          </h2>
-          <div class="row row-sm row-30 justify-content-center">
-            <div class="col-xl-9">
-              <div class="slick-quote">
-                <!-- Slick Carousel-->
-                <div
-                  class="slick-slider carousel-parent"
-                  id="carousel-parent"
-                  data-autoplay="true"
-                  data-swipe="true"
-                  data-items="1"
-                  data-child="#child-carousel"
-                  data-for="#child-carousel"
-                >
-                  <div class="item">
-                    <p class="quote-minimal-text">
-                      I’m very grateful to you for introducing me and my whole
-                      family to your extensive range of smoothies and organic
-                      juices. We are true fans and regular customers of your
-                      store!
-                    </p>
-                  </div>
-                  <div class="item">
-                    <p class="quote-minimal-text">
-                      I am amazed and extremely satisfied by your smoothies,
-                      their taste, and the customer service you provide to
-                      unexperienced clients who know nothing about organic
-                      drinks.
-                    </p>
-                  </div>
-                  <div class="item">
-                    <p class="quote-minimal-text">
-                      Your healthy drinks have a wonderful taste and the amazing
-                      selection of their flavors is what really attracts me in
-                      your store. Thank you for fast delivery and your fresh
-                      drinks!
-                    </p>
-                  </div>
-                </div>
-                <div class="slick-quote-nav">
-                  <div
-                    class="slick-slider child-carousel"
-                    id="child-carousel"
-                    data-arrows="true"
-                    data-for="#carousel-parent"
-                    data-items="1"
-                    data-sm-items="1"
-                    data-md-items="3"
-                    data-lg-items="3"
-                    data-xl-items="3"
-                    data-xxl-items="3"
-                  >
-                    <div class="item">
-                      <div class="quote-minimal-figure">
-                        <img
-                          src="images/user-7-87x87.jpg"
-                          alt=""
-                          width="87"
-                          height="87"
-                        />
-                      </div>
-                      <div class="quote-minimal-author">Patrick Goodman</div>
-                      <div class="quote-minimal-status">Client</div>
-                    </div>
-                    <div class="item">
-                      <div class="quote-minimal-figure">
-                        <img
-                          src="images/user-8-87x87.jpg"
-                          alt=""
-                          width="87"
-                          height="87"
-                        />
-                      </div>
-                      <div class="quote-minimal-author">Kate Smith</div>
-                      <div class="quote-minimal-status">Client</div>
-                    </div>
-                    <div class="item">
-                      <div class="quote-minimal-figure">
-                        <img
-                          src="images/user-9-87x87.jpg"
-                          alt=""
-                          width="87"
-                          height="87"
-                        />
-                      </div>
-                      <div class="quote-minimal-author">Sam Wilson</div>
-                      <div class="quote-minimal-status">Client</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="col-6 col-sm-3">
+          <div class="counter-modern">
+            <h2 class="counter-modern-number">
+              <span class="counter">1</span>
+            </h2>
+            <div class="counter-modern-decor"></div>
+            <h5 class="counter-modern-title">
+              Sabores<br class="d-none d-sm-block" />
+              diferentes
+            </h5>
           </div>
         </div>
-      </section>
-      <!-- Masonry Gallery-->
-      <section class="section section-xxl bg-default">
-        <div class="container">
-          <h2 class="text-transform-capitalize wow fadeScale">Our Gallery</h2>
-          <div class="isotope-wrap">
-            <div class="isotope-filters">
-              <button
-                class="isotope-filters-toggle button button-sm button-icon button-icon-right button-default-outline"
-                data-custom-toggle=".isotope-filters-list"
-                data-custom-toggle-disable-on-blur="true"
-                data-custom-toggle-hide-on-blur="true"
-              >
-                <span class="icon mdi mdi-chevron-down"></span>Filter
-              </button>
-              <div class="isotope-filters-list-wrap">
-                <ul class="isotope-filters-list">
-                  <li>
-                    <a class="active" href="#" data-isotope-filter="*">All</a>
-                  </li>
-                  <li><a href="#" data-isotope-filter="Type 1">Fruits</a></li>
-                  <li>
-                    <a href="#" data-isotope-filter="Type 2">Vegetables</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div
-              class="row row-30 isotope isotope-custom-1"
-              data-lightgallery="group"
-            >
-              <div
-                class="col-sm-6 col-lg-4 col-xl-3 isotope-item"
-                data-filter="Type 1"
-              >
-                <!-- Thumbnail Classic-->
-                <article class="thumbnail-classic block-1">
-                  <div class="thumbnail-classic-figure">
-                    <img
-                      src="images/masonry-gallery-1-270x250.jpg"
-                      alt=""
-                      width="270"
-                      height="250"
-                    />
-                  </div>
-                  <div class="thumbnail-classic-caption">
-                    <div>
-                      <h5 class="thumbnail-classic-title">
-                        <a href="single-product.html"
-                          >Lemon &amp; apple smoothie</a
-                        >
-                      </h5>
-                      <div class="thumbnail-classic-price">$12.99</div>
-                      <div class="thumbnail-classic-button-wrap">
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-gray-6 button-zakaria fl-bigmug-line-search74"
-                            href="images/grid-gallery-2-1200x800-original.jpg"
-                            data-lightgallery="item"
-                            ><img
-                              src="images/masonry-gallery-1-270x250.jpg"
-                              alt=""
-                              width="270"
-                              height="250"
-                          /></a>
-                        </div>
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                            href="cart-page.html"
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div
-                class="col-sm-6 col-lg-4 col-xl-3 isotope-item"
-                data-filter="Type 2"
-              >
-                <!-- Thumbnail Classic-->
-                <article class="thumbnail-classic block-1">
-                  <div class="thumbnail-classic-figure">
-                    <img
-                      src="images/masonry-gallery-2-270x530.jpg"
-                      alt=""
-                      width="270"
-                      height="530"
-                    />
-                  </div>
-                  <div class="thumbnail-classic-caption">
-                    <div>
-                      <h5 class="thumbnail-classic-title">
-                        <a href="single-product.html">Avocado smoothie</a>
-                      </h5>
-                      <div class="thumbnail-classic-price">$13.99</div>
-                      <div class="thumbnail-classic-button-wrap">
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-gray-6 button-zakaria fl-bigmug-line-search74"
-                            href="images/masonry-gallery-2-1200x800-original.jpg"
-                            data-lightgallery="item"
-                            ><img
-                              src="images/masonry-gallery-2-270x530.jpg"
-                              alt=""
-                              width="270"
-                              height="530"
-                          /></a>
-                        </div>
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                            href="cart-page.html"
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div
-                class="col-sm-6 col-lg-4 col-xl-3 isotope-item"
-                data-filter="Type 1"
-              >
-                <!-- Thumbnail Classic-->
-                <article class="thumbnail-classic block-1">
-                  <div class="thumbnail-classic-figure">
-                    <img
-                      src="images/masonry-gallery-3-270x250.jpg"
-                      alt=""
-                      width="270"
-                      height="250"
-                    />
-                  </div>
-                  <div class="thumbnail-classic-caption">
-                    <div>
-                      <h5 class="thumbnail-classic-title">
-                        <a href="single-product.html">Grapefruit smoothie</a>
-                      </h5>
-                      <div class="thumbnail-classic-price">$10.99</div>
-                      <div class="thumbnail-classic-button-wrap">
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-gray-6 button-zakaria fl-bigmug-line-search74"
-                            href="images/masonry-gallery-3-1200x800-original.jpg"
-                            data-lightgallery="item"
-                            ><img
-                              src="images/masonry-gallery-3-270x250.jpg"
-                              alt=""
-                              width="270"
-                              height="250"
-                          /></a>
-                        </div>
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                            href="cart-page.html"
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div
-                class="col-sm-6 col-lg-4 col-xl-3 isotope-item"
-                data-filter="Type 2"
-              >
-                <!-- Thumbnail Classic-->
-                <article class="thumbnail-classic block-1">
-                  <div class="thumbnail-classic-figure">
-                    <img
-                      src="images/masonry-gallery-4-270x250.jpg"
-                      alt=""
-                      width="270"
-                      height="250"
-                    />
-                  </div>
-                  <div class="thumbnail-classic-caption">
-                    <div>
-                      <h5 class="thumbnail-classic-title">
-                        <a href="single-product.html">Raspberry smoothie</a>
-                      </h5>
-                      <div class="thumbnail-classic-price">$8.99</div>
-                      <div class="thumbnail-classic-button-wrap">
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-gray-6 button-zakaria fl-bigmug-line-search74"
-                            href="images/masonry-gallery-4-1200x800-original.jpg"
-                            data-lightgallery="item"
-                            ><img
-                              src="images/masonry-gallery-4-270x250.jpg"
-                              alt=""
-                              width="270"
-                              height="250"
-                          /></a>
-                        </div>
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                            href="cart-page.html"
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div
-                class="col-sm-6 col-lg-4 col-xl-3 isotope-item"
-                data-filter="Type 1"
-              >
-                <!-- Thumbnail Classic-->
-                <article class="thumbnail-classic block-1">
-                  <div class="thumbnail-classic-figure">
-                    <img
-                      src="images/masonry-gallery-5-270x250.jpg"
-                      alt=""
-                      width="270"
-                      height="250"
-                    />
-                  </div>
-                  <div class="thumbnail-classic-caption">
-                    <div>
-                      <h5 class="thumbnail-classic-title">
-                        <a href="single-product.html">Kiwi &amp; avocado mix</a>
-                      </h5>
-                      <div class="thumbnail-classic-price">$14.99</div>
-                      <div class="thumbnail-classic-button-wrap">
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-gray-6 button-zakaria fl-bigmug-line-search74"
-                            href="images/grid-gallery-3-1200x800-original.jpg"
-                            data-lightgallery="item"
-                            ><img
-                              src="images/masonry-gallery-5-270x250.jpg"
-                              alt=""
-                              width="270"
-                              height="250"
-                          /></a>
-                        </div>
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                            href="cart-page.html"
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div
-                class="col-sm-6 col-lg-4 col-xl-6 isotope-item"
-                data-filter="Type 2"
-              >
-                <!-- Thumbnail Classic-->
-                <article class="thumbnail-classic block-1">
-                  <div class="thumbnail-classic-figure">
-                    <img
-                      src="images/masonry-gallery-6-570x530.jpg"
-                      alt=""
-                      width="570"
-                      height="530"
-                    />
-                  </div>
-                  <div class="thumbnail-classic-caption">
-                    <div>
-                      <h5 class="thumbnail-classic-title">
-                        <a href="single-product.html">Green fruit mix</a>
-                      </h5>
-                      <div class="thumbnail-classic-price">$16.99</div>
-                      <div class="thumbnail-classic-button-wrap">
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-gray-6 button-zakaria fl-bigmug-line-search74"
-                            href="images/grid-fullwidth-gallery-2-1200x800-original.jpg"
-                            data-lightgallery="item"
-                            ><img
-                              src="images/masonry-gallery-6-570x530.jpg"
-                              alt=""
-                              width="570"
-                              height="530"
-                          /></a>
-                        </div>
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                            href="cart-page.html"
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div
-                class="col-sm-6 col-lg-8 col-xl-6 isotope-item"
-                data-filter="Type 1"
-              >
-                <!-- Thumbnail Classic-->
-                <article class="thumbnail-classic block-1">
-                  <div class="thumbnail-classic-figure">
-                    <img
-                      src="images/masonry-gallery-7-570x250.jpg"
-                      alt=""
-                      width="570"
-                      height="250"
-                    />
-                  </div>
-                  <div class="thumbnail-classic-caption">
-                    <div>
-                      <h5 class="thumbnail-classic-title">
-                        <a href="single-product.html">Watermelon energy bowl</a>
-                      </h5>
-                      <div class="thumbnail-classic-price">$10.99</div>
-                      <div class="thumbnail-classic-button-wrap">
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-gray-6 button-zakaria fl-bigmug-line-search74"
-                            href="images/masonry-gallery-7-1200x800-original.jpg"
-                            data-lightgallery="item"
-                            ><img
-                              src="images/masonry-gallery-7-570x250.jpg"
-                              alt=""
-                              width="570"
-                              height="250"
-                          /></a>
-                        </div>
-                        <div class="thumbnail-classic-button">
-                          <a
-                            class="button button-primary button-zakaria fl-bigmug-line-shopping202"
-                            href="cart-page.html"
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
+        <div class="col-6 col-sm-3">
+          <div class="counter-modern">
+            <h2 class="counter-modern-number">
+              <span class="counter">100</span>%
+            </h2>
+            <div class="counter-modern-decor"></div>
+            <h5 class="counter-modern-title">
+              Ingredientes<br class="d-none d-sm-block" />
+              naturales
+            </h5>
           </div>
         </div>
-      </section>
-      <!-- Subscribe to Our Newsletter-->
-      <section
-        class="parallax-container"
-        data-parallax-img="images/parallax-4.jpg"
-      >
-        <div class="parallax-content section-xxl context-dark text-md-start">
-          <div class="container">
-            <div
-              class="row row-30 justify-content-center align-items-center align-items-md-end"
-            >
-              <div class="col-lg-3">
-                <h3 class="text-spacing-100 wow fadeInLeft">
-                  Stay <span class="fw-light">connected</span>
-                </h3>
-                <p class="wow fadeInLeft" data-wow-delay=".1s">
-                  Subscribe to our newsletter
-                </p>
-              </div>
-              <div class="col-lg-9 inset-lg-bottom-10">
-                <!-- RD Mailform-->
-                <form
-                  class="rd-form rd-mailform rd-form-inline form-lg rd-form-text-center"
-                  data-form-output="form-output-global"
-                  data-form-type="subscribe"
-                  method="post"
-                  action="bat/rd-mailform.php"
-                >
-                  <div class="form-wrap wow fadeInUp">
-                    <input
-                      class="form-input"
-                      id="subscribe-form-0-email"
-                      type="email"
-                      name="email"
-                      data-constraints="@Email @Required"
-                    />
-                    <label class="form-label" for="subscribe-form-0-email"
-                      >Enter your e-mail address</label
-                    >
-                  </div>
-                  <div class="form-button wow fadeInRight">
-                    <button
-                      class="button button-shadow-2 button-zakaria button-lg button-primary"
-                      type="submit"
-                    >
-                      Subscribe
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Our Team-->
-      <section class="section section-xxl bg-default">
-        <div class="container">
-          <h2 class="text-transform-capitalize wow fadeScale">Our Team</h2>
-          <!-- Owl Carousel-->
-          <div
-            class="owl-carousel owl-style-9"
-            data-items="1"
-            data-sm-items="2"
-            data-md-items="3"
-            data-lg-items="4"
-            data-margin="30"
-            data-dots="true"
-            data-mouse-drag="false"
-          >
-            <article class="team-modern box-sm wow slideInUp">
-              <a class="team-modern-figure" href="#"
-                ><img
-                  src="images/team-4-270x227.jpg"
-                  alt=""
-                  width="270"
-                  height="227"
-              /></a>
-              <h5 class="team-modern-name"><a href="#">Rebecca Martinez</a></h5>
-              <p class="team-modern-text">
-                Rebecca is the Founder and CEO of Livedrink
-              </p>
-              <ul
-                class="list-inline team-modern-list-social list-social-2 list-inline-sm"
-              >
-                <li><a class="icon mdi mdi-facebook" href="#"></a></li>
-                <li><a class="icon mdi mdi-twitter" href="#"></a></li>
-                <li><a class="icon mdi mdi-instagram" href="#"></a></li>
-                <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
-              </ul>
-            </article>
-            <article
-              class="team-modern box-sm wow slideInUp"
-              data-wow-delay=".1s"
-            >
-              <a class="team-modern-figure" href="#"
-                ><img
-                  src="images/team-5-270x227.jpg"
-                  alt=""
-                  width="270"
-                  height="227"
-              /></a>
-              <h5 class="team-modern-name"><a href="#">Peter McMillan</a></h5>
-              <p class="team-modern-text">
-                Peter is the Head of Livedrink’s Supply Chain
-              </p>
-              <ul
-                class="list-inline team-modern-list-social list-social-2 list-inline-sm"
-              >
-                <li><a class="icon mdi mdi-facebook" href="#"></a></li>
-                <li><a class="icon mdi mdi-twitter" href="#"></a></li>
-                <li><a class="icon mdi mdi-instagram" href="#"></a></li>
-                <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
-              </ul>
-            </article>
-            <article
-              class="team-modern box-sm wow slideInUp"
-              data-wow-delay=".2s"
-            >
-              <a class="team-modern-figure" href="#"
-                ><img
-                  src="images/team-6-270x227.jpg"
-                  alt=""
-                  width="270"
-                  height="227"
-              /></a>
-              <h5 class="team-modern-name"><a href="#">Jane Smith</a></h5>
-              <p class="team-modern-text">
-                Jane Smith is our leading Customer Care specialist.
-              </p>
-              <ul
-                class="list-inline team-modern-list-social list-social-2 list-inline-sm"
-              >
-                <li><a class="icon mdi mdi-facebook" href="#"></a></li>
-                <li><a class="icon mdi mdi-twitter" href="#"></a></li>
-                <li><a class="icon mdi mdi-instagram" href="#"></a></li>
-                <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
-              </ul>
-            </article>
-            <article
-              class="team-modern box-sm wow slideInUp"
-              data-wow-delay=".3s"
-            >
-              <a class="team-modern-figure" href="#"
-                ><img
-                  src="images/team-7-270x227.jpg"
-                  alt=""
-                  width="270"
-                  height="227"
-              /></a>
-              <h5 class="team-modern-name"><a href="#">Sam Williams</a></h5>
-              <p class="team-modern-text">
-                Sam is our #1 expert in domestic Sales Management.
-              </p>
-              <ul
-                class="list-inline team-modern-list-social list-social-2 list-inline-sm"
-              >
-                <li><a class="icon mdi mdi-facebook" href="#"></a></li>
-                <li><a class="icon mdi mdi-twitter" href="#"></a></li>
-                <li><a class="icon mdi mdi-instagram" href="#"></a></li>
-                <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-      <!-- Section Clients-->
-      <section class="section section-xxl bg-image-1">
-        <div class="container">
-          <h2 class="text-transform-capitalize wow fadeScale">Blog Posts</h2>
-          <!-- Owl Carousel-->
-          <div
-            class="owl-carousel"
-            data-items="1"
-            data-sm-items="2"
-            data-lg-items="3"
-            data-margin="30"
-            data-dots="true"
-            data-mouse-drag="false"
-          >
-            <!-- Post Classic-->
-            <article class="post post-classic box-md wow slideInDown">
-              <a class="post-classic-figure" href="blog-post.html"
-                ><img
-                  src="images/post-1-370x239.jpg"
-                  alt=""
-                  width="370"
-                  height="239"
-              /></a>
-              <div class="post-classic-content">
-                <div class="post-classic-time">
-                  <time datetime="2023-08-09">August 9, 2023</time>
-                </div>
-                <h5 class="post-classic-title">
-                  <a href="blog-post.html"
-                    >Can a Smoothie Supercharge Your Day?</a
-                  >
-                </h5>
-                <p class="post-classic-text">
-                  Most of us would agree – mornings are hectic. Getting yourself
-                  and possibly others ready for the day ahead may...
-                </p>
-              </div>
-            </article>
-            <!-- Post Classic-->
-            <article class="post post-classic box-md wow slideInUp">
-              <a class="post-classic-figure" href="blog-post.html"
-                ><img
-                  src="images/post-2-370x239.jpg"
-                  alt=""
-                  width="370"
-                  height="239"
-              /></a>
-              <div class="post-classic-content">
-                <div class="post-classic-time">
-                  <time datetime="2023-08-09">August 9, 2023</time>
-                </div>
-                <h5 class="post-classic-title">
-                  <a href="blog-post.html"
-                    >How to Make Your Breakfast Easy and Yummy</a
-                  >
-                </h5>
-                <p class="post-classic-text">
-                  Overloading your breakfast with calories may not be the best
-                  idea but when you need a boost for the upcoming...
-                </p>
-              </div>
-            </article>
-            <!-- Post Classic-->
-            <article class="post post-classic box-md wow slideInDown">
-              <a class="post-classic-figure" href="blog-post.html"
-                ><img
-                  src="images/post-3-370x239.jpg"
-                  alt=""
-                  width="370"
-                  height="239"
-              /></a>
-              <div class="post-classic-content">
-                <div class="post-classic-time">
-                  <time datetime="2023-08-09">August 9, 2023</time>
-                </div>
-                <h5 class="post-classic-title">
-                  <a href="blog-post.html"
-                    >Tips from Our Team: Making Yoghurts with Fresh Fruits</a
-                  >
-                </h5>
-                <p class="post-classic-text">
-                  Combining milk and fruits is the best solution for your daily
-                  meal, whether it’s breakfast, lunch, or any other...
-                </p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-      <!-- Section Clients-->
-      <section class="section section-lg bg-default">
-        <div class="container">
-          <div
-            class="owl-carousel owl-style-2"
-            data-items="2"
-            data-sm-items="3"
-            data-md-items="4"
-            data-lg-items="5"
-            data-margin="30"
-            data-dots="true"
-          >
-            <a class="clients-classic" href="#"
-              ><img
-                src="images/clients-1-120x114.png"
-                alt=""
-                width="120"
-                height="114" /></a
-            ><a class="clients-classic" href="#"
-              ><img
-                src="images/clients-2-105x118.png"
-                alt=""
-                width="105"
-                height="118" /></a
-            ><a class="clients-classic" href="#"
-              ><img
-                src="images/clients-3-111x98.png"
-                alt=""
-                width="111"
-                height="98" /></a
-            ><a class="clients-classic" href="#"
-              ><img
-                src="images/clients-4-122x92.png"
-                alt=""
-                width="122"
-                height="92" /></a
-            ><a class="clients-classic" href="#"
-              ><img
-                src="images/clients-5-112x112.png"
-                alt=""
-                width="112"
-                height="112"
-            /></a>
-          </div>
-        </div>
-      </section>
-      <!-- Page Footer-->
-      <footer class="section footer-modern footer-modern-2">
-        <div class="footer-modern-body section-xl context-dark">
-          <div class="container">
-            <div class="row row-40 row-md-50 justify-content-xl-between">
-              <div class="col-md-10 col-lg-3 col-xl-4 wow fadeInRight">
-                <div class="inset-xl-right-70 block-1">
-                  <h5 class="footer-modern-title">Gallery</h5>
-                  <div class="row row-10 gutters-10" data-lightgallery="group">
-                    <div class="col-4 col-sm-2 col-lg-4">
-                      <!-- Thumbnail Minimal--><a
-                        class="thumbnail-minimal"
-                        href="images/smoothie-shop/grid-gallery-1-1200x800-original.jpg"
-                        data-lightgallery="item"
-                        ><img
-                          src="images/smoothie-shop/grid-gallery-1-93x93.jpg"
-                          alt=""
-                          width="93"
-                          height="93"
-                      /></a>
-                    </div>
-                    <div class="col-4 col-sm-2 col-lg-4">
-                      <!-- Thumbnail Minimal--><a
-                        class="thumbnail-minimal"
-                        href="images/masonry-gallery-4-1200x800-original.jpg"
-                        data-lightgallery="item"
-                        ><img
-                          src="images/smoothie-shop/grid-gallery-2-93x93.jpg"
-                          alt=""
-                          width="93"
-                          height="93"
-                      /></a>
-                    </div>
-                    <div class="col-4 col-sm-2 col-lg-4">
-                      <!-- Thumbnail Minimal--><a
-                        class="thumbnail-minimal"
-                        href="images/grid-gallery-3-1200x800-original.jpg"
-                        data-lightgallery="item"
-                        ><img
-                          src="images/dairy-farm/grid-gallery-3-93x93.jpg"
-                          alt=""
-                          width="93"
-                          height="93"
-                      /></a>
-                    </div>
-                    <div class="col-4 col-sm-2 col-lg-4">
-                      <!-- Thumbnail Minimal--><a
-                        class="thumbnail-minimal"
-                        href="images/masonry-gallery-7-1200x800-original.jpg"
-                        data-lightgallery="item"
-                        ><img
-                          src="images/smoothie-shop/grid-gallery-4-93x93.jpg"
-                          alt=""
-                          width="93"
-                          height="93"
-                      /></a>
-                    </div>
-                    <div class="col-4 col-sm-2 col-lg-4">
-                      <!-- Thumbnail Minimal--><a
-                        class="thumbnail-minimal"
-                        href="images/smoothie-shop/grid-gallery-5-1200x800-original.jpg"
-                        data-lightgallery="item"
-                        ><img
-                          src="images/smoothie-shop/grid-gallery-5-93x93.jpg"
-                          alt=""
-                          width="93"
-                          height="93"
-                      /></a>
-                    </div>
-                    <div class="col-4 col-sm-2 col-lg-4">
-                      <!-- Thumbnail Minimal--><a
-                        class="thumbnail-minimal"
-                        href="images/grid-gallery-2-1200x800-original.jpg"
-                        data-lightgallery="item"
-                        ><img
-                          src="images/smoothie-shop/grid-gallery-6-93x93.jpg"
-                          alt=""
-                          width="93"
-                          height="93"
-                      /></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-sm-6 col-md-7 col-lg-5 wow fadeInRight"
-                data-wow-delay=".1s"
-              >
-                <h5 class="footer-modern-title">Quick Links</h5>
-                <ul
-                  class="footer-modern-list footer-modern-list-2 d-sm-inline-block d-md-block"
-                >
-                  <li><a href="our-team.html">Our Team</a></li>
-                  <li><a href="grid-shop.html">New Products</a></li>
-                  <li><a href="#">Top Sellers</a></li>
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
-                  <li><a href="#">Smoothies</a></li>
-                  <li><a href="#">Energy Bowls</a></li>
-                  <li><a href="#">Juices</a></li>
-                  <li><a href="#">Ingredients</a></li>
-                  <li><a href="#">Delivery</a></li>
-                </ul>
-              </div>
-              <div
-                class="col-sm-6 col-md-5 col-lg-4 col-xl-3 wow fadeInRight"
-                data-wow-delay=".2s"
-              >
-                <h5 class="footer-modern-title">Get in touch</h5>
-                <ul class="contacts-creative">
-                  <li>
-                    <div class="unit unit-spacing-sm flex-column flex-md-row">
-                      <div class="unit-left">
-                        <span class="icon mdi mdi-map-marker"></span>
-                      </div>
-                      <div class="unit-body">
-                        <a href="#"
-                          >523 Sylvan Ave, 5th Floor<br />Mountain View, CA
-                          94041 USA</a
-                        >
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="unit unit-spacing-sm flex-column flex-md-row">
-                      <div class="unit-left">
-                        <span class="icon mdi mdi-phone"></span>
-                      </div>
-                      <div class="unit-body">
-                        <a href="tel:#">+1 (844) 123 456 78</a>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="unit unit-spacing-sm flex-column flex-md-row">
-                      <div class="unit-left">
-                        <span class="icon mdi mdi-email-outline"></span>
-                      </div>
-                      <div class="unit-body">
-                        <a href="mailto:#">info@demolink.org</a>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-                <ul class="list-inline list-social-3 list-inline-sm">
-                  <li>
-                    <a class="icon mdi mdi-facebook icon-xxs" href="#"></a>
-                  </li>
-                  <li>
-                    <a class="icon mdi mdi-twitter icon-xxs" href="#"></a>
-                  </li>
-                  <li>
-                    <a class="icon mdi mdi-instagram icon-xxs" href="#"></a>
-                  </li>
-                  <li>
-                    <a class="icon mdi mdi-google-plus icon-xxs" href="#"></a>
-                  </li>
-                  <li><a class="icon mdi mdi-skype icon-xxs" href="#"></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-modern-panel text-center">
-          <div class="container">
-            <p class="rights">
-              <span>&copy;&nbsp; </span><span class="copyright-year"></span
-              ><span>&nbsp;</span><span>Livedrink</span
-              ><span>.&nbsp; All rights reserved.</span><span>&nbsp;</span
-              ><a href="terms-of-use.html">Privacy Policy</a><span>.</span>
-            </p>
-          </div>
-        </div>
-      </footer>
+      </div>
     </div>
-    <div class="snackbars" id="form-output-global"></div>
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
+  </div>
+</section>
+<section class="section section-xxl bg-default text-md-left">
+  <div class="container">
+    <div class="row row-30 row-md-60 row-lg-70 justify-content-center align-items-md-center">
+      <div class="col-sm-8 col-md-5 col-xl-6">
+        <div class="inset-xl-right-20">
+          <div class="product-wrap-1 bg-image-1 block-1">
+            <!-- Owl Carousel-->
+            <div class="owl-carousel owl-style-5" data-items="1" data-margin="30" data-dots="true" data-autoplay="true">
+              <article class="product-creative">
+                <div class="product-figure">
+                  <img src="images/product-big-1-470x324.png" alt="Kombucha Clásica" width="470" height="324" />
+                </div>
+                <h4 class="product-creative-title">
+                  <a href="single-product.html">Kombucha Clásica</a>
+                </h4>
+                <div class="product-creative-price-wrap">
+                  <div class="product-creative-price">
+                    <span class="infinity-symbol">∞</span> Precio especial por membresía
+                  </div>
+                </div>
+              </article>
+              <article class="product-creative">
+                <div class="product-figure">
+                  <img src="images/product-big-2-470x324.png" alt="Kombucha de Jengibre" width="470" height="324" />
+                </div>
+                <h4 class="product-creative-title">
+                  <a href="single-product.html">Kombucha de Jengibre</a>
+                </h4>
+                <div class="product-creative-price-wrap">
+                  <div class="product-creative-price">
+                    <span class="infinity-symbol">∞</span> Consulta nuestros paquetes
+                  </div>
+                </div>
+              </article>
+              <article class="product-creative">
+                <div class="product-figure">
+                  <img src="images/product-big-3-470x324.png" alt="Kombucha de Frutos Rojos" width="470" height="324" />
+                </div>
+                <h4 class="product-creative-title">
+                  <a href="single-product.html">Kombucha de Frutos Rojos</a>
+                </h4>
+                <div class="product-creative-price-wrap">
+                  <div class="product-creative-price">
+                    <span class="infinity-symbol">∞</span> Personaliza tu pedido
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 col-xl-6">
+        <h2 class="text-transform-capitalize wow fadeInRight">
+          ¿Por qué elegir Kombuvida?
+        </h2>
+        <!-- Bootstrap collapse-->
+        <div class="card-group-custom card-group-corporate" id="accordion1" role="tablist" aria-multiselectable="false">
+          <!-- Bootstrap card-->
+          <article class="card card-custom card-corporate wow fadeInRight" data-wow-delay=".1s">
+            <div class="card-header" role="tab">
+              <div class="card-title">
+                <a id="accordion1-card-head-mrydocrk" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-yralvkul" aria-controls="accordion1-card-body-yralvkul" aria-expanded="true" role="button">
+                  Salud digestiva mejorada
+                  <div class="card-arrow">
+                    <div class="icon"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="collapse show" id="accordion1-card-body-yralvkul" aria-labelledby="accordion1-card-head-mrydocrk" data-parent="#accordion1" role="tabpanel">
+              <div class="card-body">
+                <p>
+                  Nuestra kombucha contiene probióticos naturales que ayudan a equilibrar tu flora intestinal, mejorando la digestión y fortaleciendo tu sistema inmunológico. Ideal para quienes sufren de inflamación o problemas digestivos.
+                </p>
+              </div>
+            </div>
+          </article>
+          
+          <!-- Bootstrap card-->
+          <article class="card card-custom card-corporate wow fadeInRight" data-wow-delay=".2s">
+            <div class="card-header" role="tab">
+              <div class="card-title">
+                <a class="collapsed" id="accordion1-card-head-shfoqplh" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-jpuiltbo" aria-controls="accordion1-card-body-jpuiltbo" aria-expanded="false" role="button">
+                  Elaboración artesanal y consciente
+                  <div class="card-arrow">
+                    <div class="icon"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="collapse" id="accordion1-card-body-jpuiltbo" aria-labelledby="accordion1-card-head-shfoqplh" data-parent="#accordion1" role="tabpanel">
+              <div class="card-body">
+                <p>
+                  Cada lote de Kombuvida es preparado con cuidado y dedicación, usando solo ingredientes orgánicos y procesos naturales de fermentación. Sin conservantes, colorantes ni aditivos artificiales. Un producto que cuida de ti y del planeta.
+                </p>
+              </div>
+            </div>
+          </article>
+          
+          <!-- Bootstrap card-->
+          <article class="card card-custom card-corporate wow fadeInRight" data-wow-delay=".3s">
+            <div class="card-header" role="tab">
+              <div class="card-title">
+                <a class="collapsed" id="accordion1-card-head-ebjbmlky" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-qyemlhoc" aria-controls="accordion1-card-body-qyemlhoc" aria-expanded="false" role="button">
+                  Energía y bienestar natural
+                  <div class="card-arrow">
+                    <div class="icon"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="collapse" id="accordion1-card-body-qyemlhoc" aria-labelledby="accordion1-card-head-ebjbmlky" data-parent="#accordion1" role="tabpanel">
+              <div class="card-body">
+                <p>
+                  Gracias a sus vitaminas B, enzimas y nutrientes, nuestra kombucha te proporciona energía sostenible sin cafeína ni estimulantes artificiales. Muchos de nuestros clientes reportan mayor vitalidad y claridad mental desde el primer sorbo.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="col-xl-12">
+        <div class="row row-30">
+          <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
+            <article class="box-icon-creative">
+              <div class="unit flex-column flex-md-row flex-lg-column flex-xl-row align-items-md-center align-items-lg-start align-items-xl-center">
+                <div class="unit-left">
+                  <div class="box-icon-creative-icon fl-bigmug-line-big104"></div>
+                </div>
+                <div class="unit-body">
+                  <h5 class="box-icon-creative-title">
+                    <a href="#">Entrega personalizada</a>
+                  </h5>
+                  <p class="box-icon-creative-text">
+                    Fresca cada 15 días con tu membresía
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay=".1s">
+            <article class="box-icon-creative">
+              <div class="unit flex-column flex-md-row flex-lg-column flex-xl-row align-items-md-center align-items-lg-start align-items-xl-center">
+                <div class="unit-left">
+                  <div class="box-icon-creative-icon fl-bigmug-line-chat55"></div>
+                </div>
+                <div class="unit-body">
+                  <h5 class="box-icon-creative-title">
+                    <a href="#">Atención personal</a>
+                  </h5>
+                  <p class="box-icon-creative-text">
+                    Creada y entregada por la fundadora
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInLeft">
+            <article class="box-icon-creative">
+              <div class="unit flex-column flex-md-row flex-lg-column flex-xl-row align-items-md-center align-items-lg-start align-items-xl-center">
+                <div class="unit-left">
+                  <div class="box-icon-creative-icon fl-bigmug-line-like51"></div>
+                </div>
+                <div class="unit-body">
+                  <h5 class="box-icon-creative-title">
+                    <a href="#">Salud integral</a>
+                  </h5>
+                  <p class="box-icon-creative-text">
+                    Más que una bebida, un estilo de vida
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .infinity-symbol {
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .product-creative-price {
+    font-size: 1.1em;
+    color: #660606; /* Color verde kombucha */
+  }
+</style>
+  <!-- Testimonios Kombuvida -->
+<section class="section section-xxl bg-image-1">
+  <div class="container">
+    <h2 class="text-transform-capitalize wow fadeScale">
+      Lo que dicen nuestros clientes
+    </h2>
+    <div class="row row-sm row-30 justify-content-center">
+      <div class="col-xl-9">
+        <div class="slick-quote">
+          <!-- Slick Carousel-->
+          <div class="slick-slider carousel-parent" id="carousel-parent" data-autoplay="true" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel">
+            <div class="item">
+              <p class="quote-minimal-text">
+                La kombucha de Kombuvida cambió mi vida. Después de años de problemas digestivos, encontré alivio desde la primera botella. ¡Ahora no paso un día sin mi dosis de salud!
+              </p>
+            </div>
+            <div class="item">
+              <p class="quote-minimal-text">
+                Como nutricionista, recomiendo Kombuvida a todos mis pacientes. Es la única marca local que mantiene procesos 100% artesanales con ingredientes orgánicos de verdad.
+              </p>
+            </div>
+            <div class="item">
+              <p class="quote-minimal-text">
+                La membresía es lo mejor. Cada 15 días llega mi kombucha fresca a casa. El sabor de jengibre es mi favorito, me da energía natural sin cafeína.
+              </p>
+            </div>
+          </div>
+          <div class="slick-quote-nav">
+            <div class="slick-slider child-carousel" id="child-carousel" data-arrows="true" data-for="#carousel-parent" data-items="1" data-sm-items="1" data-md-items="3" data-lg-items="3" data-xl-items="3" data-xxl-items="3">
+              <div class="item">
+                <div class="quote-minimal-figure">
+                  <img src="images/user-7-87x87.jpg" alt="Ana Martínez" width="87" height="87" />
+                </div>
+                <div class="quote-minimal-author">Ana Martínez</div>
+                <div class="quote-minimal-status">Cliente desde 2024</div>
+              </div>
+              <div class="item">
+                <div class="quote-minimal-figure">
+                  <img src="images/user-8-87x87.jpg" alt="Dr. Carlos Ruiz" width="87" height="87" />
+                </div>
+                <div class="quote-minimal-author">Dr. Carlos Ruiz</div>
+                <div class="quote-minimal-status">Nutricionista</div>
+              </div>
+              <div class="item">
+                <div class="quote-minimal-figure">
+                  <img src="images/user-9-87x87.jpg" alt="Luisa González" width="87" height="87" />
+                </div>
+                <div class="quote-minimal-author">Luisa González</div>
+                <div class="quote-minimal-status">Membresía Premium</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Galería Kombuvida -->
+<section class="section section-xxl bg-default">
+  <div class="container">
+    <h2 class="text-transform-capitalize wow fadeScale">Nuestra Galería</h2>
+    <div class="isotope-wrap">
+      <div class="row row-30 isotope isotope-custom-1" data-lightgallery="group">
+        <!-- Imagen 1 -->
+        <div class="col-sm-6 col-lg-4 col-xl-3 isotope-item">
+          <article class="thumbnail-classic block-1">
+            <div class="thumbnail-classic-figure">
+              <img src="images/masonry-gallery-1-270x250.jpg" alt="Kombucha Clásica" width="270" height="250" />
+            </div>
+            <div class="thumbnail-classic-caption">
+              <div>
+                <h5 class="thumbnail-classic-title">Kombucha Clásica</h5>
+                <p class="thumbnail-classic-description">Fermentación artesanal con té verde orgánico</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Imagen 2 (vertical) -->
+        <div class="col-sm-6 col-lg-4 col-xl-3 isotope-item">
+          <article class="thumbnail-classic block-1">
+            <div class="thumbnail-classic-figure">
+              <img src="images/masonry-gallery-2-270x530.jpg" alt="Kombucha de Jengibre" width="270" height="530" />
+            </div>
+            <div class="thumbnail-classic-caption">
+              <div>
+                <h5 class="thumbnail-classic-title">Kombucha de Jengibre</h5>
+                <p class="thumbnail-classic-description">Energía natural con propiedades digestivas</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Imagen 3 -->
+        <div class="col-sm-6 col-lg-4 col-xl-3 isotope-item">
+          <article class="thumbnail-classic block-1">
+            <div class="thumbnail-classic-figure">
+              <img src="images/masonry-gallery-3-270x250.jpg" alt="Kombucha de Frutos Rojos" width="270" height="250" />
+            </div>
+            <div class="thumbnail-classic-caption">
+              <div>
+                <h5 class="thumbnail-classic-title">Kombucha de Frutos Rojos</h5>
+                <p class="thumbnail-classic-description">Mezcla antioxidante con bayas naturales</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Imagen 4 -->
+        <div class="col-sm-6 col-lg-4 col-xl-3 isotope-item">
+          <article class="thumbnail-classic block-1">
+            <div class="thumbnail-classic-figure">
+              <img src="images/masonry-gallery-4-270x250.jpg" alt="Kombucha de Mango" width="270" height="250" />
+            </div>
+            <div class="thumbnail-classic-caption">
+              <div>
+                <h5 class="thumbnail-classic-title">Kombucha de Mango</h5>
+                <p class="thumbnail-classic-description">Dulce y tropical con fermentación controlada</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Imagen 5 -->
+        <div class="col-sm-6 col-lg-4 col-xl-3 isotope-item">
+          <article class="thumbnail-classic block-1">
+            <div class="thumbnail-classic-figure">
+              <img src="images/masonry-gallery-5-270x250.jpg" alt="Proceso de Fermentación" width="270" height="250" />
+            </div>
+            <div class="thumbnail-classic-caption">
+              <div>
+                <h5 class="thumbnail-classic-title">Proceso de Fermentación</h5>
+                <p class="thumbnail-classic-description">Cuidadosamente supervisado durante 14 días</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Imagen 6 (grande horizontal) -->
+        <div class="col-sm-6 col-lg-4 col-xl-6 isotope-item">
+          <article class="thumbnail-classic block-1">
+            <div class="thumbnail-classic-figure">
+              <img src="images/masonry-gallery-6-570x530.jpg" alt="Ingredientes Orgánicos" width="570" height="530" />
+            </div>
+            <div class="thumbnail-classic-caption">
+              <div>
+                <h5 class="thumbnail-classic-title">Ingredientes Orgánicos</h5>
+                <p class="thumbnail-classic-description">Seleccionados personalmente para máxima calidad</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Imagen 7 (grande horizontal) -->
+        <div class="col-sm-6 col-lg-8 col-xl-6 isotope-item">
+          <article class="thumbnail-classic block-1">
+            <div class="thumbnail-classic-figure">
+              <img src="images/masonry-gallery-7-570x250.jpg" alt="Equipo de Elaboración" width="570" height="250" />
+            </div>
+            <div class="thumbnail-classic-caption">
+              <div>
+                <h5 class="thumbnail-classic-title">Elaboración Artesanal</h5>
+                <p class="thumbnail-classic-description">Cada botella preparada con dedicación</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .thumbnail-classic-caption {
+    text-align: center;
+    padding: 15px;
+  }
+  .thumbnail-classic-description {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 8px;
+  }
+</style>
+  <!-- Suscríbete a Kombuvida -->
+<section class="parallax-container" data-parallax-img="images/parallax-4.jpg">
+  <div class="parallax-content section-xxl context-dark text-md-left">
+    <div class="container">
+      <div class="row row-30 justify-content-center align-items-center align-items-md-end">
+        <div class="col-lg-3">
+          <h3 class="text-spacing-100 wow fadeInLeft">
+            Únete a la <span class="font-weight-light">comunidad</span>
+          </h3>
+          <p class="wow fadeInLeft" data-wow-delay=".1s">
+            Recibe tips de salud y promociones
+          </p>
+        </div>
+        <div class="col-lg-9 inset-lg-bottom-10">
+          <!-- RD Mailform-->
+          <form class="rd-form rd-mailform rd-form-inline form-lg rd-form-text-center"
+            data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
+            <div class="form-wrap wow fadeInUp">
+              <input class="form-input" id="subscribe-form-0-email" type="email" name="email"
+                data-constraints="@Email @Required" />
+              <label class="form-label" for="subscribe-form-0-email">Tu correo electrónico</label>
+            </div>
+            <div class="form-button wow fadeInRight">
+              <button class="button button-shadow-2 button-zakaria button-lg button-primary" type="submit">
+                Suscribirme
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- El Corazón de Kombuvida -->
+<section class="section section-xxl bg-default">
+  <div class="container">
+    <h2 class="text-transform-capitalize wow fadeScale">El Corazón de Kombuvida</h2>
+    <!-- Owl Carousel-->
+    <div class="owl-carousel owl-style-9" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4"
+      data-margin="30" data-dots="true" data-mouse-drag="false">
+      <article class="team-modern box-sm wow slideInUp">
+        <div class="team-modern-figure">
+          <img src="images/team-4-270x227.jpg" alt="Fundadora de Kombuvida" width="270" height="227" />
+        </div>
+        <h5 class="team-modern-name">Evelyn Alexxa</h5>
+        <p class="team-modern-text">
+          Fundadora y creadora de todas las recetas
+        </p>
+        <ul class="list-inline team-modern-list-social list-social-2 list-inline-sm">
+          <li><a class="icon mdi mdi-instagram" href="https://instagram.com/kombuvidamx"></a></li>
+          <li><a class="icon mdi mdi-email" href="mailto:evelynalexxa@icloud.com"></a></li>
+        </ul>
+      </article>
+      <article class="team-modern box-sm wow slideInUp" data-wow-delay=".1s">
+        <div class="team-modern-figure">
+          <img src="images/team-5-270x227.jpg" alt="Cultivo SCOBY" width="270" height="227" />
+        </div>
+        <h5 class="team-modern-name">Nuestro SCOBY</h5>
+        <p class="team-modern-text">
+          El corazón vivo de cada fermentación
+        </p>
+      </article>
+      <article class="team-modern box-sm wow slideInUp" data-wow-delay=".2s">
+        <div class="team-modern-figure">
+          <img src="images/team-6-270x227.jpg" alt="Ingredientes orgánicos" width="270" height="227" />
+        </div>
+        <h5 class="team-modern-name">Ingredientes</h5>
+        <p class="team-modern-text">
+          Seleccionados con amor y cuidado
+        </p>
+      </article>
+      <article class="team-modern box-sm wow slideInUp" data-wow-delay=".3s">
+        <div class="team-modern-figure">
+          <img src="images/team-7-270x227.jpg" alt="Comunidad Kombuvida" width="270" height="227" />
+        </div>
+        <h5 class="team-modern-name">Tú</h5>
+        <p class="team-modern-text">
+          Parte esencial de nuestra familia
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Blog Kombuvida -->
+<section class="section section-xxl bg-image-1">
+  <div class="container">
+    <h2 class="text-transform-capitalize wow fadeScale">Conoce Más</h2>
+    <!-- Owl Carousel-->
+    <div class="owl-carousel" data-items="1" data-sm-items="2" data-lg-items="3" data-margin="30" data-dots="true"
+      data-mouse-drag="false">
+      <!-- Post Classic-->
+      <article class="post post-classic box-md wow slideInDown">
+        <a class="post-classic-figure" href="blog-post.html">
+          <img src="images/post-1-370x239.jpg" alt="Proceso de fermentación" width="370" height="239" />
+        </a>
+        <div class="post-classic-content">
+          <div class="post-classic-time">
+            <time datetime="2024-04-01">Abril 1, 2024</time>
+          </div>
+          <h5 class="post-classic-title">
+            <a href="blog-post.html">El arte de la fermentación: Cómo creamos nuestra kombucha</a>
+          </h5>
+          <p class="post-classic-text">
+            Descubre el proceso artesanal detrás de cada botella de Kombuvida y por qué nuestra fermentación es especial...
+          </p>
+        </div>
+      </article>
+      <!-- Post Classic-->
+      <article class="post post-classic box-md wow slideInUp">
+        <a class="post-classic-figure" href="blog-post.html">
+          <img src="images/post-2-370x239.jpg" alt="Beneficios de la kombucha" width="370" height="239" />
+        </a>
+        <div class="post-classic-content">
+          <div class="post-classic-time">
+            <time datetime="2024-03-15">Marzo 15, 2024</time>
+          </div>
+          <h5 class="post-classic-title">
+            <a href="blog-post.html">5 beneficios comprobados de la kombucha para tu salud digestiva</a>
+          </h5>
+          <p class="post-classic-text">
+            La ciencia detrás de cómo nuestra kombucha puede transformar tu bienestar intestinal...
+          </p>
+        </div>
+      </article>
+      <!-- Post Classic-->
+      <article class="post post-classic box-md wow slideInDown">
+        <a class="post-classic-figure" href="blog-post.html">
+          <img src="images/post-3-370x239.jpg" alt="Recetas con kombucha" width="370" height="239" />
+        </a>
+        <div class="post-classic-content">
+          <div class="post-classic-time">
+            <time datetime="2024-03-01">Marzo 1, 2024</time>
+          </div>
+          <h5 class="post-classic-title">
+            <a href="blog-post.html">Más allá de la botella: 3 recetas creativas con kombucha</a>
+          </h5>
+          <p class="post-classic-text">
+            Sorprende a tus invitados con estas deliciosas preparaciones que llevan tu kombucha al siguiente nivel...
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Pie de página -->
+<footer class="section footer-modern footer-modern-2">
+  <div class="footer-modern-body section-xl context-dark">
+    <div class="container">
+      <div class="row row-40 row-md-50 justify-content-xl-between">
+        <div class="col-md-10 col-lg-3 col-xl-4 wow fadeInRight">
+          <div class="inset-xl-right-70 block-1">
+            <h5 class="footer-modern-title">Galería Kombuvida</h5>
+            <div class="row row-10 gutters-10" data-lightgallery="group">
+              <div class="col-4 col-sm-2 col-lg-4">
+                <a class="thumbnail-minimal" href="images/grid-gallery-1-1200x800-original.jpg"
+                  data-lightgallery="item">
+                  <img src="images/grid-gallery-1-93x93.jpg" alt="Kombucha clásica" width="93" height="93" />
+                </a>
+              </div>
+              <div class="col-4 col-sm-2 col-lg-4">
+                <a class="thumbnail-minimal" href="images/grid-gallery-2-1200x800-original.jpg"
+                  data-lightgallery="item">
+                  <img src="images/grid-gallery-2-93x93.jpg" alt="Kombucha de jengibre" width="93" height="93" />
+                </a>
+              </div>
+              <div class="col-4 col-sm-2 col-lg-4">
+                <a class="thumbnail-minimal" href="images/grid-gallery-3-1200x800-original.jpg"
+                  data-lightgallery="item">
+                  <img src="images/grid-gallery-3-93x93.jpg" alt="Kombucha de frutos rojos" width="93" height="93" />
+                </a>
+              </div>
+              <div class="col-4 col-sm-2 col-lg-4">
+                <a class="thumbnail-minimal" href="images/grid-gallery-4-1200x800-original.jpg"
+                  data-lightgallery="item">
+                  <img src="images/grid-gallery-4-93x93.jpg" alt="Proceso artesanal" width="93" height="93" />
+                </a>
+              </div>
+              <div class="col-4 col-sm-2 col-lg-4">
+                <a class="thumbnail-minimal" href="images/grid-gallery-5-1200x800-original.jpg"
+                  data-lightgallery="item">
+                  <img src="images/grid-gallery-5-93x93.jpg" alt="Ingredientes orgánicos" width="93" height="93" />
+                </a>
+              </div>
+              <div class="col-4 col-sm-2 col-lg-4">
+                <a class="thumbnail-minimal" href="images/grid-gallery-6-1200x800-original.jpg"
+                  data-lightgallery="item">
+                  <img src="images/grid-gallery-6-93x93.jpg" alt="Comunidad Kombuvida" width="93" height="93" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-7 col-lg-5 wow fadeInRight" data-wow-delay=".1s">
+          <h5 class="footer-modern-title">Explora</h5>
+          <ul class="footer-modern-list footer-modern-list-2 d-sm-inline-block d-md-block">
+            <li><a href="blog-list.html">Blog</a></li>
+            <li><a href="grid-gallery.html">Galería</a></li>
+            <li><a href="pricing-list.html">Membresías</a></li>
+            <li><a href="privacy-policy.html">Políticas</a></li>
+            <li><a href="contact-us.html">Contacto</a></li>
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Kombucha Clásica</a></li>
+            <li><a href="#">Kombucha de Jengibre</a></li>
+            <li><a href="#">Kombucha de Frutos Rojos</a></li>
+            <li><a href="#">Beneficios</a></li>
+            <li><a href="#">Entrega</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3 wow fadeInRight" data-wow-delay=".2s">
+          <h5 class="footer-modern-title">Contáctanos</h5>
+          <ul class="contacts-creative">
+            <li>
+              <div class="unit unit-spacing-sm flex-column flex-md-row">
+                <div class="unit-left">
+                  <span class="icon mdi mdi-map-marker"></span>
+                </div>
+                <div class="unit-body">
+                  <a href="#">Hecho en Guadalajara<br />Jalisco, México</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="unit unit-spacing-sm flex-column flex-md-row">
+                <div class="unit-left">
+                  <span class="icon mdi mdi-phone"></span>
+                </div>
+                <div class="unit-body">
+                  <a href="tel:3323558616">33 2355 8616</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="unit unit-spacing-sm flex-column flex-md-row">
+                <div class="unit-left">
+                  <span class="icon mdi mdi-email-outline"></span>
+                </div>
+                <div class="unit-body">
+                  <a href="mailto:evelynalexxa@icloud.com">evelynalexxa@icloud.com</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="unit unit-spacing-sm flex-column flex-md-row">
+                <div class="unit-left">
+                  <span class="icon mdi mdi-instagram"></span>
+                </div>
+                <div class="unit-body">
+                  <a href="https://instagram.com/kombuvidamx">@kombuvidamx</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="list-inline list-social-3 list-inline-sm">
+            <li>
+              <a class="icon mdi mdi-instagram icon-xxs" href="https://instagram.com/kombuvidamx"></a>
+            </li>
+            <li>
+              <a class="icon mdi mdi-facebook-messenger icon-xxs" href="https://m.me/kombuvidamx"></a>
+            </li>
+            <li>
+              <a class="icon mdi mdi-whatsapp icon-xxs" href="https://wa.me/523323558616"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-modern-panel text-center">
+    <div class="container">
+      <p class="rights">
+        <span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Kombuvida</span><span>.&nbsp; Todos los derechos reservados.</span><span>&nbsp;</span><a href="privacy-policy.html">Política de Privacidad</a><span>.</span>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<div class="snackbars" id="form-output-global"></div>
+<script src="js/core.min.js"></script>
+<script src="js/script.js"></script>
+
+    <!--LIVEDEMO_00 -->
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-7078796-5"]);
+      _gaq.push(["_trackPageview"]);
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "https://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
     <!-- Google Tag Manager --><noscript
       ><iframe
         src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"
