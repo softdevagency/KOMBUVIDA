@@ -20863,3 +20863,49 @@ html#ecwid_html
   --color-stop-1: #f9e95e;
   --color-stop-2: #7F1F0E;
 }
+/* Estilos básicos para las tarjetas */
+.news-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.news-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-content h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.news-content h3 a {
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.news-content h3 a:hover {
+  color: #27ae60;
+  text-decoration: underline;
+}
+
+.news-content p {
+  color: #555;
+  margin-bottom: 0;
+}
