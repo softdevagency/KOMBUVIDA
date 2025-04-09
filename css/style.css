@@ -206,7 +206,7 @@
 .bg-gray-3 .rd-navbar-fixed .contacts-classic a:focus,
 .bg-brown-1 .rd-navbar-fixed .contacts-classic a:focus,
 .bg-primary .rd-navbar-fixed .contacts-classic a:focus {
-  color: #777777;
+  color: #7F1F0E;
 }
 
 .context-dark .rd-navbar-fixed .contacts-classic a:hover,
@@ -375,7 +375,7 @@ body {
   letter-spacing: 0.05em;
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  color: #777777;
+  color: #726c6c;
   background-color: #ffffff;
   -webkit-text-size-adjust: none;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -783,7 +783,7 @@ a[href*="mailto"] {
 .link-classic,
 .link-classic:focus,
 .link-classic:active {
-  color: #a3a3a3;
+  color: #DAC1B1;
 }
 
 .link-classic:hover {
@@ -1426,7 +1426,7 @@ a[href*="mailto"] {
 .contacts-classic a,
 .contacts-classic a:focus,
 .contacts-classic a:active {
-  color: #777777;
+  color: #4b4c4e;
 }
 
 .contacts-classic a:hover {
@@ -1515,7 +1515,7 @@ a[href*="mailto"] {
 }
 
 .box-comment-time {
-  color: #777777;
+  color: #FFFFFF;
 }
 
 .box-comment-reply {
@@ -1657,7 +1657,7 @@ a[href*="mailto"] {
 }
 
 .box-info-classic-text {
-  color: #777777;
+  color: #FFFFFF;
 }
 
 .box-info-classic-year {
@@ -1696,7 +1696,7 @@ a[href*="mailto"] {
 .bg-gray-3 .box-info-classic-text,
 .bg-brown-1 .box-info-classic-text,
 .bg-primary .box-info-classic-text {
-  color: #777777;
+  color: #FFFFFF;
 }
 
 .context-dark .box-info-classic-year,
@@ -1769,7 +1769,7 @@ a[href*="mailto"] {
 .box-info-modern-link,
 .box-info-modern-link:focus,
 .box-info-modern-link:active {
-  color: #a3a3a3;
+  color: #DAC1B1;
 }
 
 .box-info-modern-link:hover {
@@ -1815,7 +1815,7 @@ a[href*="mailto"] {
 
 @media (min-width: 992px) {
   .desktop .box-info-modern-link:hover {
-    color: #a3a3a3;
+    color: #DAC1B1;
   }
   .desktop .box-info-modern:hover::before {
     top: -15px;
@@ -2707,7 +2707,7 @@ p + .list-marked {
 }
 
 .list-categories-number {
-  color: #777777;
+  color: #FFFFFF;
 }
 
 * + .list-categories {
@@ -2992,7 +2992,7 @@ img {
   background: #ffffff;
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  color: #777777;
+  color: #FFFFFF;
   min-width: 170px;
 }
 
@@ -3118,7 +3118,7 @@ h5 + .table-custom-responsive {
   padding-bottom: 14px;
   font-size: 16px;
   font-weight: 500;
-  color: #777777;
+  color: #FFFFFF;
   background: #ffffff;
 }
 
@@ -3516,7 +3516,7 @@ hr {
 .button-secondary-2:hover,
 .button-secondary-2:active {
   color: #151515;
-  background-color: #fff773;
+  background-color: #ffffff;
   border-color: #fff773;
 }
 
@@ -6154,7 +6154,7 @@ textarea.textarea-lg {
 .breadcrumbs-custom-path a,
 .breadcrumbs-custom-path a:active,
 .breadcrumbs-custom-path a:focus {
-  color: #777777;
+  color: #FFFFFF;
 }
 
 .breadcrumbs-custom-path li {
@@ -6598,7 +6598,7 @@ textarea.textarea-lg {
 }
 
 .footer-modern-2 {
-  background: #383d3f;
+  background: #A58570;
 }
 
 .footer-modern-2 .footer-modern-panel {
@@ -6830,7 +6830,7 @@ textarea.textarea-lg {
   font-size: 12px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #777777;
+  color: #FFFFFF;
 }
 
 * + .contacts-holly-text {
@@ -7467,7 +7467,7 @@ textarea.textarea-lg {
 }
 
 .product-creative-price-old {
-  color: #a3a3a3;
+  color: #DAC1B1;
   font-weight: 400;
   text-decoration: line-through;
 }
@@ -7924,7 +7924,7 @@ textarea.textarea-lg {
 }
 
 .list-description li span:last-child {
-  color: #777777;
+  color: #FFFFFF;
 }
 
 .list-description li + li {
@@ -8525,7 +8525,7 @@ textarea.textarea-lg {
   line-height: 1.2;
   letter-spacing: 0.025em;
   font-family: "Kalam", cursive;
-  color: #a3a3a3;
+  color: #DAC1B1;
 }
 
 .team-amy-name {
@@ -9022,7 +9022,7 @@ html:not(.ie-10):not(.ie-11):not(.ie-edge) .team-karen-header svg {
 .bg-gray-3 .event-classic,
 .bg-brown-1 .event-classic,
 .bg-primary .event-classic {
-  color: #777777;
+  color: #FFFFFF;
 }
 
 .context-dark .event-classic-title,
@@ -10061,7 +10061,7 @@ html [class*="section-"].section-top-0 {
 }
 
 .bg-gray-600 {
-  background-color: #777777;
+  background-color: #FFFFFF;
 }
 
 .bg-gray-800 {
@@ -10344,7 +10344,7 @@ html [class*="section-"].section-top-0 {
 
 p.rights {
   letter-spacing: 0;
-  color: #777777;
+  color: #FFFFFF;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
 }
@@ -15641,7 +15641,7 @@ html.rd-navbar-fixed-linked .page {
 .google-map {
   height: 250px;
   width: 100%;
-  color: #777777;
+  color: #FFFFFF;
 }
 
 @media (min-width: 576px) {
@@ -16018,7 +16018,7 @@ html.rd-navbar-fixed-linked .page {
   letter-spacing: 0.05em;
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  color: #777777;
+  color: #FFFFFF;
 }
 
 .form-search .form-input {
@@ -16853,7 +16853,7 @@ h3 + .card-group-corporate {
 
 .card-corporate .collapse {
   position: relative;
-  color: #777777;
+  color: #FFFFFF;
   border-radius: 0 0 6px 6px;
   z-index: 1;
 }
@@ -17605,7 +17605,7 @@ html:not(.ie-10):not(.ie-11):not(.ie-edge) .countdown-circle svg {
   letter-spacing: 0.05em;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  color: #a3a3a3;
+  color: #DAC1B1;
   transition: all 0.2s ease;
   transform: translate3d(0, -50%, 0);
   will-change: transform;
@@ -19959,7 +19959,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   letter-spacing: 0.05em;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  color: #a3a3a3;
+  color: #DAC1B1;
   background: transparent;
   transition: all 0.2s ease;
   transform: translate3d(0, -50%, 0);
