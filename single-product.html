@@ -73,7 +73,6 @@
                     <li class="rd-nav-item"><a class="rd-nav-link" href="grid-gallery.html">Galería</a></li>
                     <li class="rd-nav-item active"><a class="rd-nav-link" href="single-product.html">Producto</a></li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="pricing-list.html">Membresía</a></li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="coming-soon.html">Próximamente</a></li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="privacy-policy.html">Política de Privacidad</a></li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Contacto</a></li>
                   </ul>
@@ -272,8 +271,18 @@ function confirmarPedidoWhatsApp() {
   const mensaje = document.getElementById('pedido-mensaje').value;
   
   // Crear mensaje para WhatsApp
-  const texto = `Hola Kombuvida, me interesa comprar ${cantidad} botella(s) de kombucha (500ml).%0A%0A*Mis datos:*%0ANombre: ${nombre} ${apellidos}%0ACorreo: ${email}%0ATeléfono: ${telefono}%0A%0A*Mensaje:*%0A${mensaje || 'Ninguno'}`;
-  
+  const texto = `Hola Kombuvida, me interesa comprar ${cantidad} botella(s) de kombucha (500ml).
+
+*Mis datos:*
+Nombre: ${nombre} ${apellidos}
+Correo: ${email}
+Teléfono: ${telefono}
+
+*Mensaje:*
+${mensaje || 'Ninguno'}`;
+
+  // Codificar todo el mensaje para URL
+  const mensajeCodificado = encodeURIComponent(texto);
   // Abrir WhatsApp
   window.open(`https://wa.me/523323558616?text=${encodeURIComponent(texto)}`, '_blank');
 }
