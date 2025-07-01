@@ -6154,7 +6154,7 @@ textarea.textarea-lg {
 .breadcrumbs-custom-path a,
 .breadcrumbs-custom-path a:active,
 .breadcrumbs-custom-path a:focus {
-  color: #FFFFFF;
+  color: #070707;
 }
 
 .breadcrumbs-custom-path li {
@@ -6179,7 +6179,7 @@ textarea.textarea-lg {
   font-size: 14px;
   line-height: 1.72;
   font-family: "Material Design Icons";
-  color: #151515;
+  color: #880819;
   transform: translate3d(50%, -50%, 0);
 }
 
@@ -6189,7 +6189,7 @@ textarea.textarea-lg {
 
 .breadcrumbs-custom-path a:hover,
 .breadcrumbs-custom-path li.active {
-  color: #151515;
+  color: #d3baa2;
 }
 
 * + .breadcrumbs-custom-path {
@@ -7924,7 +7924,7 @@ textarea.textarea-lg {
 }
 
 .list-description li span:last-child {
-  color: #FFFFFF;
+  color: #080808;
 }
 
 .list-description li + li {
