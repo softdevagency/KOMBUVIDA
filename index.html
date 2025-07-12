@@ -26,13 +26,16 @@
   <!-- CSS mínimo -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css" defer>
 
-  <!-- JS con defer -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js" defer></script>
+
 
     <!-- CSS Propio -->
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/style.css" />
+ <link rel="preload" as="style" href="css/bootstrap.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/bootstrap.css"></noscript>
+<link rel="preload" as="style" href="css/fonts.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/fonts.css"></noscript>
+    <link rel="preload" as="style" href="css/style.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/style.css"></noscript>
+
 
     <!-- Estilo IE -->
     <style>
@@ -1446,55 +1449,11 @@
 
 <!-- Scripts -->
 <div class="snackbars" id="form-output-global"></div>
-<script src="js/core.min.js" defer></script>
-<script src="js/script.js" defer></script>
+<script src="js/core.min.js"></script>
+<script src="js/script.js"></script>
 
 <!-- Bootstrap JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!-- Antes de cerrar el </body> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/share/lg-share.min.js"></script>
-
-    <!--LIVEDEMO_00 -->
-
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-7078796-5"]);
-      _gaq.push(["_trackPageview"]);
-      (function () {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src =
-          ("https:" == document.location.protocol
-            ? "https://ssl"
-            : "https://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-
-    <!-- Google Tag Manager --><noscript
-      ><iframe
-        src="//www.googletagmanager.com/ns?id=GTM-P9FT69"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-P9FT69");
-    </script>
-    <!-- End Google Tag Manager -->
-  </body>
-</html>
