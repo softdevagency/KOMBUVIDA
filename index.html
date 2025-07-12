@@ -6,22 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>Kumbo Vida | Kombucha Artesanal 100% Natural en México</title>
-    <meta name="description" content="Descubre Kumbo Vida, kombucha artesanal elaborada en México. Mejora tu digestión, fortalece tu sistema inmune y disfruta de una bebida 100% natural sin conservadores." />
-    <meta name="keywords" content="kombucha México, kombucha artesanal, Kumbo Vida, bebida probiótica, kombucha natural, salud digestiva, probióticos naturales" />
-    <meta name="robots" content="index, follow" />
-    <meta name="language" content="Spanish" />
-    <meta name="author" content="Kumbo Vida" />
+ <!-- Meta básicas -->
+<meta name="description" content="Kombucha artesanal 100% natural en México. Mejora tu digestión, energía y sistema inmune con probióticos vivos.">
+<!-- OpenGraph (para redes sociales) -->
+<meta property="og:title" content="Kumbo Vida | Kombucha Artesanal 100% Natural">
+<meta property="og:image" content="https://tudominio.com/images/logo-social.jpg">
+<meta property="og:url" content="https://tudominio.com">
+<meta property="og:type" content="website">
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
     <!-- Tipografías -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Lato|Kalam:300,400,700" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lato&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <!-- LightGallery CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-zoom.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-share.min.css">
+ 
+  <!-- CSS mínimo -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css" defer>
+
+  <!-- JS con defer -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js" defer></script>
 
     <!-- CSS Propio -->
     <link rel="stylesheet" href="css/bootstrap.css" />
@@ -47,24 +53,22 @@
     </style>
 
     <!-- Datos estructurados JSON-LD para SEO local -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Kumbo Vida",
-        "image": "https://kombuvida.com.mx/images/logo-default-3-314x70.png",
-        "url": "https://kombuvida.com.mx",
-        "telephone": "+52 33 2355 8616",
-        "email": "evelynalexxa@icloud.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Guadalajara",
-          "addressRegion": "Jalisco",
-          "addressCountry": "MX"
-        },
-        "description": "Kumbo Vida ofrece kombucha artesanal 100% natural con múltiples beneficios para tu salud."
-      }
-    </script>
+ <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthFoodStore",
+    "name": "Kumbo Vida",
+    "image": "https://tudominio.com/images/logo.jpg",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Guadalajara",
+      "addressRegion": "Jalisco",
+      "addressCountry": "MX"
+    },
+    "telephone": "+523323558616"
+  }
+</script>
  <!-- Botón flotante de WhatsApp -->
 <div class="whatsapp-float">
   <a href="https://wa.me/523323558616" target="_blank" rel="noopener noreferrer">
@@ -161,10 +165,7 @@
         data-loop="true"
       >
         <div class="swiper-wrapper context-dark">
-          <div
-            class="swiper-slide swiper-slide-1"
-            data-slide-bg="images/slide-1.webp"
-          >
+          <div class="swiper-slide swiper-slide-1" data-slide-bg="images/slide-1.webp">
             <div class="swiper-slide-caption section-md">
   <div class="container">
     <div class="row justify-content-center"> <!-- Añade justify-content-center aquí -->
@@ -1445,9 +1446,8 @@
 
 <!-- Scripts -->
 <div class="snackbars" id="form-output-global"></div>
-<script src="js/core.min.js"></script>
-<script src="js/script.js"></script>
-
+<script src="js/core.min.js" defer></script>
+<script src="js/script.js" defer></script>
 
 <!-- Bootstrap JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
