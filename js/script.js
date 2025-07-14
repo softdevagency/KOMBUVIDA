@@ -2075,3 +2075,7 @@
     }
   });
 })();
+
+if (location.hostname === "www.kombuvida.com.mx") {
+  location.href = "https://kombuvida.com.mx" + location.pathname + location.search + location.hash;
+}
