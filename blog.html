@@ -3,13 +3,16 @@
 <head>
   <title>Blog | Kumbo Vida Kombucha Artesanal México</title>
   <meta charset="utf-8">
+    <!-- Canonical apunta a la versión “/blog/” limpia -->
+  <link rel="canonical" href="https://www.kombuvida.com.mx/blog" />
+  <meta name="robots" content="index, follow" />
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <!-- SEO Meta Tags -->
   <meta name="description" content="Explora el blog de Kumbo Vida: tips de bienestar, fermentación natural, recetas saludables y los beneficios de la kombucha artesanal mexicana.">
   <meta name="keywords" content="blog kombucha, salud natural, kombucha artesanal México, fermentación, bebidas probióticas, bienestar digestivo, Kumbo Vida blog">
-  <meta name="robots" content="index, follow">
+
   <meta name="language" content="es-MX">
 
   <!-- Open Graph (redes sociales) -->
@@ -17,9 +20,8 @@
   <meta property="og:description" content="Bienvenido al blog de Kumbo Vida. Descubre todo sobre la kombucha artesanal, fermentación, nutrición y salud holística.">
   <meta property="og:image" content="https://kombuvida.com.mx/images/fundadora-evelyn.webp"> <!-- reemplaza con tu imagen real -->
 <!-- En blog/index.html -->
-<link rel="canonical" href="https://www.kombuvida.com.mx/blog" />
 
-  <meta property="og:type" content="website">
+
 
   <!-- Icono -->
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -147,8 +149,8 @@
           <div class="row row-50 row-md-60 row-lg-80 row-xl-100">
             
             <!-- Artículo 1: Historia de Kombuvida -->
-            <div class="col-12">
-              <article class="post post-modern box-xxl">
+            <div class="col-12 blog-articulo">
+  <article class="post post-modern box-xxl">
                 <div class="post-modern-panel">
                   <div><a class="post-modern-tag" href="#">Inspiración</a></div>
                 </div>
@@ -171,8 +173,8 @@
             </div>
             
             <!-- Artículo 2: Beneficios de la Kombucha -->
-            <div class="col-12">
-              <article class="post post-modern box-xxl">
+          <div class="col-12 blog-articulo">
+  <article class="post post-modern box-xxl">
                 <div class="post-modern-panel">
                   <div><a class="post-modern-tag" href="#">Salud</a></div>
                 </div>
@@ -204,8 +206,8 @@
             </div>
             
             <!-- Artículo 3: Membresía y Consumo -->
-            <div class="col-12">
-              <article class="post post-modern box-xxl">
+          <div class="col-12 blog-articulo">
+  <article class="post post-modern box-xxl">
                 <div class="post-modern-panel">
                   <div><a class="post-modern-tag" href="#">Consejos</a></div>
                 </div>
@@ -238,20 +240,105 @@
                 </div>
               </article>
             </div>
-          </div>
-          
           <!-- Paginación (opcional) -->
-          <div class="pagination-wrap">
-            <nav aria-label="Page navigation">
-              <ul class="pagination">
-                <li class="page-item active"><span class="page-link">1</span></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-              </ul>
-            </nav>
+<!-- ✅ Paginación: SIN ID ni clase kombu-hidden -->
+<div class="pagination-wrap">
+  <nav aria-label="Page navigation">
+    <ul class="pagination" id="blog-pagination">
+      <li class="page-item active">
+        <span class="page-link" data-page="1">1</span>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#" data-page="2">2</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<!-- ✅ Artículo de Kombuvia -->
+<div id="articulo-kombuvia" class="col-12" style="display: none;">
+  <article class="post post-modern box-xxl">
+    <h3 class="post-modern-title">Kombuvia: Salud y sabor en cada sorbo</h3>
+    <div class="post-modern-text">
+
+      <p><strong>¿Qué es Kombuvia?</strong><br>
+      Kombuvia es una kombucha 100 % natural y artesanal de Guadalajara: té orgánico, azúcar de caña, cultivos SCOBY y sin conservadores ni colorantes. Fermentada con métodos tradicionales, mantiene cultivos vivos ricos en probióticos que favorecen la flora intestinal y apoyan la digestión.</p>
+
+      <h4>Beneficios para la salud</h4>
+      <ul>
+        <li><strong>Salud digestiva mejorada:</strong> Probióticos naturales que equilibran la microbiota.</li>
+        <li><strong>Desintoxicación y antioxidantes:</strong> Enzimas digestivas que respaldan la función hepática.</li>
+        <li><strong>Energía natural:</strong> Vitaminas B y nutrientes, ideal como sustituto de bebidas con cafeína.</li>
+      </ul>
+
+      <h4>Producción consciente y valores</h4>
+      <p>Elaboración artesanal y sin aditivos; cada lote cuidado con ingredientes orgánicos. Compromiso por el bienestar individual y colectivo: un estilo de vida, una comunidad.</p>
+
+      <h4>Variedad de sabores y experiencia sensorial</h4>
+      <p>Sabores destacados: clásica (té verde), jengibre, frutos rojos, mango, etc.<br>
+      Proceso de fermentación controlado durante 14 días; producto fresco cada 15 días.</p>
+
+      <h4>Plan de membresías</h4>
+      <p>Entrega quincenal con 10 % de descuento en plan de 3 meses.<br>
+      Plan individual: 4 botellas cada 15 días a $3,060, con descuento a $2,799.<br>
+      Envío personalizado y compromiso con la frescura.</p>
+
+      <h4>¿Por qué elegir Kombuvia sobre otras bebidas?</h4>
+      <p>Comparado con refrescos y otras bebidas industrializadas, Kombuvia ofrece beneficios digestivos, inmunológicos y energéticos sin azúcares añadidos ni estimulantes.</p>
+
+      <h4>Cómo integrarla en tu rutina</h4>
+      <ul>
+        <li>Desayuno: con avena o smoothies.</li>
+        <li>Pre o post entrenamiento: energía ligera.</li>
+        <li>Refresco durante el día, sustituyendo sodas.</li>
+        <li>Ritual consciente en tu pausa diaria.</li>
+      </ul>
+
+      <h4>Sobre la fundadora</h4>
+      <p>Kombuvia fue fundada y desarrollada por Evelyn Alexa Sánchez Vilchis, quien lidera personalmente todo el proceso, desde la selección de ingredientes hasta la entrega personalizada. Mantiene una filosofía artesanal y cercana con su comunidad.</p>
+
+      <p>Invita a suscribirse, probar un sabor favorito y compartir la experiencia en redes sociales: <a href="https://instagram.com/kombuvidamx" target="_blank">@kombuvidamx</a>.</p>
+    </div>
+  </article>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const pagination = document.getElementById("blog-pagination");
+    const kombuviaContainer = document.getElementById("articulo-kombuvia");
+    const standardArticles = Array.from(document.querySelectorAll(".blog-articulo"));
+
+    pagination.addEventListener("click", function (e) {
+      const target = e.target.closest("[data-page]");
+      if (!target) return;
+
+      e.preventDefault();
+      const page = target.dataset.page;
+
+      // Resetea clases activas
+      document.querySelectorAll("#blog-pagination .page-item")
+        .forEach(li => li.classList.remove("active"));
+      target.parentElement.classList.add("active");
+
+      if (page === "2") {
+        standardArticles.forEach(el => el.style.display = "none");
+        kombuviaContainer.style.display = "block";
+        kombuviaContainer.scrollIntoView({ behavior: "smooth" });
+      } else {
+        standardArticles.forEach(el => el.style.display = "block");
+        kombuviaContainer.style.display = "none";
+      }
+    });
+  });
+</script>
+
+
           </div>
-        </div>
+ </div>
       </div>
+
+
+      
+
       
       <!-- Sidebar -->
       <div class="col-lg-4 col-xl-3">
